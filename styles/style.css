@@ -1,19 +1,27 @@
 /*Шрифты: font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;*/
+font-family: 'Playfair Display', serif;
+
+FONT_SIZE:
+Decstop: h3 - 2vw; Body S - 1.2vw;
+Tablet: h3 - 2.5vw; Body S - 1.8vw; 
+Smartphone: h3 - 5vw; Body S - 3.5vw;/
 
 /*СЖИМАЕМ КАРТИНКИ СРАЗУ https://tinypng.com/*/
+
+/*Делаем свой блок сразу адаптивным*/
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 
 .root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  background: #fafafa;
 }
 /*Popular Genres начало*/
 .genres {
   width: 50%;
   margin-left: 25%;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 0.5fr);
@@ -28,14 +36,23 @@ font-family: 'Playfair Display', serif;*/
   padding-bottom: 1.5vw;
   text-align: left;
   font-family: "Playfair Display", serif;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: 700;
 }
 .genres__icon-books {
   grid-area: 2 / 1 / 3 / 2;
 }
 .genres_icon {
-  width: 2vw;
+  width: 2.5vw;
+  padding-top: 25%;
+}
+.icon_background {
+  width: 7vw;
+  height: 6vw;
+  margin-left: 22%;
+  background: #ffffff;
+  box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+  border-radius: 8px;
 }
 .icon-books__ caption {
   grid-area: 3 / 1 / 4 / 2;
@@ -117,7 +134,7 @@ font-family: 'Playfair Display', serif;*/
   .genres {
     width: 50%;
     margin-left: 25%;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
@@ -132,16 +149,24 @@ font-family: 'Playfair Display', serif;*/
     padding-bottom: 1.5vw;
     text-align: left;
     font-family: "Playfair Display", serif;
-    font-size: 1.8vw;
+    font-size: 2vw;
     font-weight: 700;
   }
   .genres__icon-books {
     grid-area: 2 / 1 / 3 / 2;
   }
   .genres_icon {
-    width: 2.2vw;
+    width: 2.5vw;
+    padding-top: 25%;
   }
-
+  .icon_background {
+    width: 7vw;
+    height: 6vw;
+    margin-left: 22%;
+    background: #ffffff;
+    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+    border-radius: 8px;
+  }
   .icon-books__ caption {
     grid-area: 3 / 1 / 4 / 2;
   }
@@ -245,7 +270,16 @@ font-family: 'Playfair Display', serif;*/
     grid-area: 2 / 1 / 3 / 2;
   }
   .genres_icon {
-    width: 3.5vw;
+    width: 3vw;
+    padding-top: 25%;
+  }
+  .icon_background {
+    width: 7vw;
+    height: 6vw;
+    margin-left: 22%;
+    background: #ffffff;
+    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+    border-radius: 8px;
   }
   .icon-books__ caption {
     grid-area: 3 / 1 / 4 / 2;
@@ -328,7 +362,7 @@ font-family: 'Playfair Display', serif;*/
   .genres {
     width: 100%;
     margin: 0%;
-    font-size: 4vw;
+    font-size: 3.5vw;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
@@ -339,18 +373,26 @@ font-family: 'Playfair Display', serif;*/
     grid-area: 1 / 1 / 2 / 5;
   }
   .name_size {
-    padding-left: 2.5vw;
     padding-bottom: 1.5vw;
     text-align: left;
     font-family: "Playfair Display", serif;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 700;
   }
   .genres__icon-books {
     grid-area: 2 / 1 / 3 / 2;
   }
   .genres_icon {
-    width: 8vw;
+    width: 6vw;
+    padding-top: 25%;
+  }
+  .icon_background {
+    width: 15vw;
+    height: 14vw;
+    margin-left: 21%;
+    background: #ffffff;
+    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+    border-radius: 8px;
   }
   .icon-books__ caption {
     grid-area: 3 / 1 / 4 / 2;
@@ -423,4 +465,3 @@ font-family: 'Playfair Display', serif;*/
   }
   /*Popular Genres конец*/
 }
-/*размеры медиа запросов позже еще подгоним*/
