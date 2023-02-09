@@ -12,16 +12,62 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 
+/*ОБЩИЕ СВОЙСТВА*/
 .root {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   background: #fafafa;
+  font-size: 1.2vw;
 }
+.heading-h3 {
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+.heading-h3_size {
+  padding-left: 2.5vw;
+  padding-bottom: 1.5vw;
+  font-size: 2vw;
+}
+/*ОБЩИЕ СВОЙСТВА*/
+
+/*Latest Arrivals начало*/
+.cards {
+  width: 50%;
+  margin-left: 25%;
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+  grid-template-rows: 0.2fr 0.5fr 0.2fr;
+  border: 1px solid black;
+}
+.cards__name {
+  grid-area: 1 / 1 / 2 / 4;
+}
+.cards__img1 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.cards__caption1 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.cards__img2 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.cards__caption2 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.cards__img3 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.cards__caption3 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+/*Latest Arrivals конец*/
+
 /*Popular Genres начало*/
 .menu {
   width: 50%;
   margin-left: 25%;
-  font-size: 1.2vw;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 0.5fr);
@@ -30,14 +76,6 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
 }
 .menu__name {
   grid-area: 1 / 1 / 2 / 5;
-}
-.name_size {
-  padding-left: 2.5vw;
-  padding-bottom: 1.5vw;
-  text-align: left;
-  font-family: "Playfair Display", serif;
-  font-size: 2vw;
-  font-weight: 700;
 }
 .menu__icon-books {
   grid-area: 2 / 1 / 3 / 2;
@@ -54,87 +92,100 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
   box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
   border-radius: 8px;
 }
-.icon-books__ caption {
+.icon-books__caption {
   grid-area: 3 / 1 / 4 / 2;
 }
 .menu__icon-detective {
   grid-area: 2 / 2 / 3 / 3;
 }
-.icon-detective__ caption {
+.icon-detective__caption {
   grid-area: 3 / 2 / 4 / 3;
 }
 .menu__icon-knife {
   grid-area: 2 / 3 / 3 / 4;
 }
-.icon-knife__ caption {
+.icon-knife__caption {
   grid-area: 3 / 3 / 4 / 4;
 }
 .menu__icon-heart {
   grid-area: 2 / 4 / 3 / 5;
 }
-.icon-heart__ caption {
+.icon-heart__caption {
   grid-area: 3 / 4 / 4 / 5;
 }
 .menu__icon-geography {
   grid-area: 4 / 1 / 5 / 2;
 }
-.icon-geography__ caption {
+.icon-geography__caption {
   grid-area: 5 / 1 / 6 / 2;
 }
 .menu__icon-tennis {
   grid-area: 4 / 2 / 5 / 3;
 }
-.icon-tennis__ caption {
+.icon-tennis__caption {
   grid-area: 5 / 2 / 6 / 3;
 }
 .menu__icon-physics {
   grid-area: 4 / 3 / 5 / 4;
 }
-.icon-physics__ caption {
+.icon-physics__caption {
   grid-area: 5 / 3 / 6 / 4;
 }
 .menu__icon-witch {
   grid-area: 4 / 4 / 5 / 5;
 }
-.icon-witch__ caption {
+.icon-witch__caption {
   grid-area: 5 / 4 / 6 / 5;
 }
 .menu__icon-couple {
   grid-area: 6 / 1 / 7 / 2;
 }
-.icon-couple__ caption {
+.icon-couple__caption {
   grid-area: 7 / 1 / 8 / 2;
 }
 .menu__icon-children {
   grid-area: 6 / 2 / 7 / 3;
 }
-.icon-children__ caption {
+.icon-children__caption {
   grid-area: 7 / 2 / 8 / 3;
 }
 .menu__icon-book {
   grid-area: 6 / 3 / 7 / 4;
 }
-.icon-book__ caption {
+.icon-book__caption {
   grid-area: 7 / 3 / 8 / 4;
 }
 .menu__icon-leaf {
   grid-area: 6 / 4 / 7 / 5;
 }
-.icon-leaf__ caption {
+.icon-leaf__caption {
   grid-area: 7 / 4 / 8 / 5;
 }
 /*Popular Genres конец*/
 
 @media screen and (min-width: 1000px) {
+  /*ОБЩИЕ СВОЙСТВА*/
   .root {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    font-size: 1.2vw;
   }
+  .heading-h3 {
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+  }
+  .heading-h3_size {
+    padding-left: 2.5vw;
+    padding-bottom: 1.5vw;
+    font-size: 2vw;
+  }
+  /*ОБЩИЕ СВОЙСТВА*/
+
   /*Popular Genres начало*/
   .menu {
     width: 50%;
     margin-left: 25%;
-    font-size: 1.2vw;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
@@ -143,14 +194,6 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
   }
   .menu__name {
     grid-area: 1 / 1 / 2 / 5;
-  }
-  .name_size {
-    padding-left: 2.5vw;
-    padding-bottom: 1.5vw;
-    text-align: left;
-    font-family: "Playfair Display", serif;
-    font-size: 2vw;
-    font-weight: 700;
   }
   .menu__icon-books {
     grid-area: 2 / 1 / 3 / 2;
@@ -167,88 +210,101 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
     border-radius: 8px;
   }
-  .icon-books__ caption {
+  .icon-books__caption {
     grid-area: 3 / 1 / 4 / 2;
   }
   .menu__icon-detective {
     grid-area: 2 / 2 / 3 / 3;
   }
-  .icon-detective__ caption {
+  .icon-detective__caption {
     grid-area: 3 / 2 / 4 / 3;
   }
   .menu__icon-knife {
     grid-area: 2 / 3 / 3 / 4;
   }
-  .icon-knife__ caption {
+  .icon-knife__caption {
     grid-area: 3 / 3 / 4 / 4;
   }
   .menu__icon-heart {
     grid-area: 2 / 4 / 3 / 5;
   }
-  .icon-heart__ caption {
+  .icon-heart__caption {
     grid-area: 3 / 4 / 4 / 5;
   }
   .menu__icon-geography {
     grid-area: 4 / 1 / 5 / 2;
   }
-  .icon-geography__ caption {
+  .icon-geography__caption {
     grid-area: 5 / 1 / 6 / 2;
   }
   .menu__icon-tennis {
     grid-area: 4 / 2 / 5 / 3;
   }
-  .icon-tennis__ caption {
+  .icon-tennis__caption {
     grid-area: 5 / 2 / 6 / 3;
   }
   .menu__icon-physics {
     grid-area: 4 / 3 / 5 / 4;
   }
-  .icon-physics__ caption {
+  .icon-physics__caption {
     grid-area: 5 / 3 / 6 / 4;
   }
   .menu__icon-witch {
     grid-area: 4 / 4 / 5 / 5;
   }
-  .icon-witch__ caption {
+  .icon-witch__caption {
     grid-area: 5 / 4 / 6 / 5;
   }
   .menu__icon-couple {
     grid-area: 6 / 1 / 7 / 2;
   }
-  .icon-couple__ caption {
+  .icon-couple__caption {
     grid-area: 7 / 1 / 8 / 2;
   }
   .menu__icon-children {
     grid-area: 6 / 2 / 7 / 3;
   }
-  .icon-children__ caption {
+  .icon-children__caption {
     grid-area: 7 / 2 / 8 / 3;
   }
   .menu__icon-book {
     grid-area: 6 / 3 / 7 / 4;
   }
-  .icon-book__ caption {
+  .icon-book__caption {
     grid-area: 7 / 3 / 8 / 4;
   }
   .menu__icon-leaf {
     grid-area: 6 / 4 / 7 / 5;
   }
-  .icon-leaf__ caption {
+  .icon-leaf__caption {
     grid-area: 7 / 4 / 8 / 5;
   }
   /*Popular Genres конец*/
 }
 
 @media (min-width: 600px) and (max-width: 999px) {
+  /*ОБЩИЕ СВОЙСТВА*/
   .root {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    font-size: 1.8vw;
   }
+  .heading-h3 {
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+  }
+  .heading-h3_size {
+    padding-left: 2.5vw;
+    padding-bottom: 1.5vw;
+    font-size: 2.5vw;
+  }
+  /*ОБЩИЕ СВОЙСТВА*/
+
   /*Popular Genres начало*/
   .menu {
     width: 50%;
     margin-left: 25%;
-    font-size: 1.8vw;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
@@ -257,14 +313,6 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
   }
   .menu__name {
     grid-area: 1 / 1 / 2 / 5;
-  }
-  .name_size {
-    padding-left: 2.5vw;
-    padding-bottom: 1.5vw;
-    text-align: left;
-    font-family: "Playfair Display", serif;
-    font-size: 2.5vw;
-    font-weight: 700;
   }
   .menu__icon-books {
     grid-area: 2 / 1 / 3 / 2;
@@ -281,88 +329,100 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
     border-radius: 8px;
   }
-  .icon-books__ caption {
+  .icon-books__caption {
     grid-area: 3 / 1 / 4 / 2;
   }
   .menu__icon-detective {
     grid-area: 2 / 2 / 3 / 3;
   }
-  .icon-detective__ caption {
+  .icon-detective__caption {
     grid-area: 3 / 2 / 4 / 3;
   }
   .menu__icon-knife {
     grid-area: 2 / 3 / 3 / 4;
   }
-  .icon-knife__ caption {
+  .icon-knife__caption {
     grid-area: 3 / 3 / 4 / 4;
   }
   .menu__icon-heart {
     grid-area: 2 / 4 / 3 / 5;
   }
-  .icon-heart__ caption {
+  .icon-heart__caption {
     grid-area: 3 / 4 / 4 / 5;
   }
   .menu__icon-geography {
     grid-area: 4 / 1 / 5 / 2;
   }
-  .icon-geography__ caption {
+  .icon-geography__caption {
     grid-area: 5 / 1 / 6 / 2;
   }
   .menu__icon-tennis {
     grid-area: 4 / 2 / 5 / 3;
   }
-  .icon-tennis__ caption {
+  .icon-tennis__caption {
     grid-area: 5 / 2 / 6 / 3;
   }
   .menu__icon-physics {
     grid-area: 4 / 3 / 5 / 4;
   }
-  .icon-physics__ caption {
+  .icon-physics__caption {
     grid-area: 5 / 3 / 6 / 4;
   }
   .menu__icon-witch {
     grid-area: 4 / 4 / 5 / 5;
   }
-  .icon-witch__ caption {
+  .icon-witch__caption {
     grid-area: 5 / 4 / 6 / 5;
   }
   .menu__icon-couple {
     grid-area: 6 / 1 / 7 / 2;
   }
-  .icon-couple__ caption {
+  .icon-couple__caption {
     grid-area: 7 / 1 / 8 / 2;
   }
   .menu__icon-children {
     grid-area: 6 / 2 / 7 / 3;
   }
-  .icon-children__ caption {
+  .icon-children__caption {
     grid-area: 7 / 2 / 8 / 3;
   }
   .menu__icon-book {
     grid-area: 6 / 3 / 7 / 4;
   }
-  .icon-book__ caption {
+  .icon-book__caption {
     grid-area: 7 / 3 / 8 / 4;
   }
   .menu__icon-leaf {
     grid-area: 6 / 4 / 7 / 5;
   }
-  .icon-leaf__ caption {
+  .icon-leaf__caption {
     grid-area: 7 / 4 / 8 / 5;
   }
   /*Popular Genres конец*/
 }
 
 @media screen and (max-width: 599px) {
+  /*ОБЩИЕ СВОЙСТВА*/
   .root {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    font-size: 3.5vw;
   }
+  .heading-h3 {
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+  }
+  .heading-h3_size {
+    padding-bottom: 1.5vw;
+    font-size: 5vw;
+  }
+  /*ОБЩИЕ СВОЙСТВА*/
+
   /*Popular Genres начало*/
   .menu {
     width: 100%;
     margin: 0%;
-    font-size: 3.5vw;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
@@ -371,13 +431,6 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
   }
   .menu__name {
     grid-area: 1 / 1 / 2 / 5;
-  }
-  .name_size {
-    padding-bottom: 1.5vw;
-    text-align: left;
-    font-family: "Playfair Display", serif;
-    font-size: 5vw;
-    font-weight: 700;
   }
   .menu__icon-books {
     grid-area: 2 / 1 / 3 / 2;
@@ -394,73 +447,73 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
     border-radius: 8px;
   }
-  .icon-books__ caption {
+  .icon-books__caption {
     grid-area: 3 / 1 / 4 / 2;
   }
   .menu__icon-detective {
     grid-area: 2 / 2 / 3 / 3;
   }
-  .icon-detective__ caption {
+  .icon-detective__caption {
     grid-area: 3 / 2 / 4 / 3;
   }
   .menu__icon-knife {
     grid-area: 2 / 3 / 3 / 4;
   }
-  .icon-knife__ caption {
+  .icon-knife__caption {
     grid-area: 3 / 3 / 4 / 4;
   }
   .menu__icon-heart {
     grid-area: 2 / 4 / 3 / 5;
   }
-  .icon-heart__ caption {
+  .icon-heart__caption {
     grid-area: 3 / 4 / 4 / 5;
   }
   .menu__icon-geography {
     grid-area: 4 / 1 / 5 / 2;
   }
-  .icon-geography__ caption {
+  .icon-geography__caption {
     grid-area: 5 / 1 / 6 / 2;
   }
   .menu__icon-tennis {
     grid-area: 4 / 2 / 5 / 3;
   }
-  .icon-tennis__ caption {
+  .icon-tennis__caption {
     grid-area: 5 / 2 / 6 / 3;
   }
   .menu__icon-physics {
     grid-area: 4 / 3 / 5 / 4;
   }
-  .icon-physics__ caption {
+  .icon-physics__caption {
     grid-area: 5 / 3 / 6 / 4;
   }
   .menu__icon-witch {
     grid-area: 4 / 4 / 5 / 5;
   }
-  .icon-witch__ caption {
+  .icon-witch__caption {
     grid-area: 5 / 4 / 6 / 5;
   }
   .menu__icon-couple {
     grid-area: 6 / 1 / 7 / 2;
   }
-  .icon-couple__ caption {
+  .icon-couple__caption {
     grid-area: 7 / 1 / 8 / 2;
   }
   .menu__icon-children {
     grid-area: 6 / 2 / 7 / 3;
   }
-  .icon-children__ caption {
+  .icon-children__caption {
     grid-area: 7 / 2 / 8 / 3;
   }
   .menu__icon-book {
     grid-area: 6 / 3 / 7 / 4;
   }
-  .icon-book__ caption {
+  .icon-book__caption {
     grid-area: 7 / 3 / 8 / 4;
   }
   .menu__icon-leaf {
     grid-area: 6 / 4 / 7 / 5;
   }
-  .icon-leaf__ caption {
+  .icon-leaf__caption {
     grid-area: 7 / 4 / 8 / 5;
   }
   /*Popular Genres конец*/
