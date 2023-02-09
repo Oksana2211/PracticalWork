@@ -37,6 +37,26 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
   width: 77%;
 }
 /*Navbar конец*/
+/*Блок Welcome back, Jessica! начало*/
+.p-5 {
+  margin-left: 22%;
+}
+
+.text {
+  font-family: "Playfair Display", serif;
+  width: 25vw;
+  height: 23vh;
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 3vh;
+  line-height: 6vh;
+}
+
+/*Блок Welcome back, Jessica! конец*/
+
 .heading-h3_size {
   padding-left: 2.5vw;
   padding-bottom: 1.5vw;
