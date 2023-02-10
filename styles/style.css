@@ -24,6 +24,19 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
+.heading-h3_size {
+  padding-left: 2.5vw;
+  padding-bottom: 1.5vw;
+  font-size: 2vw;
+}
+.heading-h4_size {
+  font-size: 1.3vw;
+}
+.img-book {
+  width: 11vw;
+  height: 14vw;
+}
+/*ОБЩИЕ СВОЙСТВА*/
 
 /*Navbar начало*/
 .rowCustom {
@@ -37,6 +50,7 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
   width: 77%;
 }
 /*Navbar конец*/
+
 /*Блок Welcome back, Jessica! начало*/
 .p-5 {
   margin-left: 22%;
@@ -56,20 +70,6 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
 }
 
 /*Блок Welcome back, Jessica! конец*/
-
-.heading-h3_size {
-  padding-left: 2.5vw;
-  padding-bottom: 1.5vw;
-  font-size: 2vw;
-}
-.heading-h4_size {
-  font-size: 1.3vw;
-}
-.img-book {
-  width: 11vw;
-  height: 14vw;
-}
-/*ОБЩИЕ СВОЙСТВА*/
 
 /*Latest Arrivals начало*/
 .cards {
@@ -110,7 +110,6 @@ Smartphone: h3 - 5vw; Body S - 3.5vw;/
 }
 
 /*Latest Arrivals конец*/
->>>>>>> 7cc187b05898998b89465d1d21f41e7ec2b34af8
 
 /*Popular Genres начало*/
 .menu {
