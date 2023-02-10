@@ -217,6 +217,8 @@ FONT_SIZE:
 }
 .footer__icon {
   width: 2.5vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .cell1 {
   grid-area: 1 / 1 / 2 / 2;
@@ -419,6 +421,8 @@ FONT_SIZE:
   }
   .footer__icon {
     width: 2.5vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .cell1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -621,7 +625,9 @@ FONT_SIZE:
     grid-template-rows: 0.5fr;
   }
   .footer__icon {
-    width: 2.5vw;
+    width: 5vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .cell1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -823,7 +829,9 @@ FONT_SIZE:
     grid-template-rows: 0.5fr;
   }
   .footer__icon {
-    width: 2.5vw;
+    width: 7vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .cell1 {
     grid-area: 1 / 1 / 2 / 2;
