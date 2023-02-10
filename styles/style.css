@@ -45,14 +45,9 @@ FONT_SIZE:
 /*Navbar начало*/
 .rowCustom {
   box-shadow: 0px 0px 10px rgb(164, 164, 159);
-  width: 77%;
-  margin: 2em;
+  width: 100%;
 }
 
-.rowCustom__footer {
-  box-shadow: 0px -2px 10px rgb(164, 164, 159);
-  width: 77%;
-}
 /*Navbar конец*/
 
 /*Блок Welcome back, Jessica! начало*/
@@ -214,6 +209,10 @@ FONT_SIZE:
 /*Popular Genres конец*/
 
 /*Footer начало*/
+.rowCustom__footer {
+  box-shadow: 0px -2px 10px rgb(164, 164, 159);
+  width: 77%;
+}
 .footer {
   box-shadow: 0px -2px 2px rgb(164, 164, 159);
   height: 10vh;
@@ -638,9 +637,6 @@ FONT_SIZE:
   /*Footer начало*/
   .footer {
     box-shadow: 0px -2px 2px rgb(164, 164, 159);
-    height: 10vh;
-    width: 50%;
-    margin-left: 25%;
     margin-top: 5%;
     display: flex;
     align-items: center;
@@ -648,9 +644,6 @@ FONT_SIZE:
   }
 
   .footer__content {
-    width: 50%;
-    margin-left: 25%;
-    margin-top: -8px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
