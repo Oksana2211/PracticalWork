@@ -4,7 +4,7 @@ font-family: 'Playfair Display', serif;
 FONT_SIZE:
 смотрите в ОБЩИЕ свойства*/
 
-/*СЖИМАЕМ КАРТИНКИ СРАЗУ https://tinypng.com/*/
+/*СЖИМАЕМ КАРТИНКИ СРАЗУ https://tinypng.com/ */
 
 /*Делаем свой блок сразу адаптивным*/
 
@@ -70,6 +70,43 @@ FONT_SIZE:
   line-height: 170%;
 }
 /*Блок Welcome back, Jessica! конец*/
+
+/*Блок Popular Lists начало*/
+.lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  border: 1px solid black;
+  padding-bottom: 5%;
+}
+.lists__name {
+  grid-area: 1 / 1 / 2 / 3;
+}
+.card-lists1 {
+  grid-area: 2 / 1 / 3 / 2;
+  background: #df8887;
+  box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
+  border-radius: 8px;
+  padding-right: 25%;
+  padding-left: 5%;
+  margin-left: 10%;
+}
+.card-lists1_color {
+  color: #ffffff;
+}
+.card-lists2 {
+  grid-area: 2 / 2 / 3 / 3;
+  background: #cedee4;
+  box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
+  border-radius: 8px;
+  margin-left: 10%;
+}
+.card-lists_size {
+  width: 20vw;
+  height: 20vh;
+}
+
+/*Блок Popular Lists конец*/
 
 /*Latest Arrivals начало*/
 .cards {
