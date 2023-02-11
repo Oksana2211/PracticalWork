@@ -1,0 +1,52 @@
+/*Шрифты: font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+
+FONT_SIZE:
+смотрите в ОБЩИЕ свойства*/
+
+/*СЖИМАЕМ КАРТИНКИ СРАЗУ https://tinypng.com/ */
+
+/*Делаем свой блок сразу адаптивным*/
+
+/*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
+
+/*ОБЩИЕ СВОЙСТВА*/
+.root {
+  width: 50%;
+  margin-left: 25%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background: #fafafa;
+  font-size: 1.2vw;
+}
+.heading {
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.heading-h1_size {
+  font-size: 4vw;
+  padding: 0%;
+}
+
+.heading-h3_size {
+  padding-left: 2.5vw;
+  padding-bottom: 1.5vw;
+  font-size: 2vw;
+}
+.heading-h4_size {
+  font-size: 1.5vw;
+  margin-bottom: 0%;
+}
+.text-body-s {
+  font-size: 1.2vw;
+}
+.text-body-l {
+  font-size: 1.8vw;
+}
+.img-book {
+  width: 13vw;
+  height: 16vw;
+}
+/*ОБЩИЕ СВОЙСТВА*/
