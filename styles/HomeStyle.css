@@ -110,9 +110,16 @@ FONT_SIZE:
 }
 .authors__content {
   margin-left: 2.5vw;
+  margin-right: 2.5vw;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   padding-bottom: 5%;
+  justify-items: center;
+  text-align: center;
+}
+
+.authors__name {
+  margin-top: 8px;
 }
 /* Катя Top 10 authors конец */
 
