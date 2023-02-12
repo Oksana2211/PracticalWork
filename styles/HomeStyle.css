@@ -10,65 +10,6 @@ FONT_SIZE:
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 
-/*ОБЩИЕ СВОЙСТВА*/
-
-.root {
-  width: 50%;
-  margin-left: 25%;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  background: #fafafa;
-  font-size: 1.2vw;
-}
-.heading {
-  text-align: left;
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-}
-
-.heading-h1_size {
-  font-size: 4vw;
-  padding: 0%;
-}
-
-.heading-h3_size {
-  padding-left: 2.5vw;
-  padding-bottom: 1.5vw;
-  font-size: 2vw;
-}
-.heading-h4_size {
-  font-size: 1.5vw;
-  margin-bottom: 0%;
-}
-.text-body-s {
-  font-size: 1.2vw;
-}
-.text-body-l {
-  font-size: 1.8vw;
-}
-.img-book {
-  width: 13vw;
-  height: 16vw;
-}
-a:link {
-  text-decoration: none;
-}
-a:visited {
-  color: #000000;
-}
-a:focus {
-  border-bottom: 1px solid;
-}
-
-a:hover {
-  border-bottom: 1px solid;
-}
-
-a:active {
-  color: #000000;
-}
-/*ОБЩИЕ СВОЙСТВА*/
-
 /*Navbar начало*/
 .rowCustom {
   box-shadow: 0px 0px 10px rgb(164, 164, 159);
@@ -165,7 +106,6 @@ a:active {
 /*Блок Popular Lists конец*/
 
 /* Катя Top 10 authors начало */
-
 .authors {
   border: 1px solid black;
 }
@@ -183,7 +123,6 @@ a:active {
 .authors__name {
   margin-top: 8px;
 }
-
 /* Катя Top 10 authors конец */
 
 /*Latest Arrivals начало*/
@@ -352,45 +291,6 @@ a:active {
 /*Footer конец*/
 
 @media screen and (min-width: 1000px) {
-  /*ОБЩИЕ СВОЙСТВА*/
-  .root {
-    width: 50%;
-    margin-left: 25%;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 1.2vw;
-  }
-  .heading {
-    text-align: left;
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-  }
-  .heading-h1_size {
-    font-size: 4vw;
-    padding: 0%;
-  }
-
-  .heading-h3_size {
-    padding-left: 2.5vw;
-    padding-bottom: 1.5vw;
-    font-size: 2vw;
-  }
-  .heading-h4_size {
-    font-size: 1.5vw;
-    margin-bottom: 0%;
-  }
-  .text-body-s {
-    font-size: 1.2vw;
-  }
-  .text-body-l {
-    font-size: 1.8vw;
-  }
-  .img-book {
-    width: 13vw;
-    height: 16vw;
-  }
-  /*ОБЩИЕ СВОЙСТВА*/
-
   /*Navbar начало*/
   .rowCustom {
     box-shadow: 0px 0px 10px rgb(164, 164, 159);
@@ -483,7 +383,6 @@ a:active {
     width: 20vw;
     height: 11vw;
   }
-
   /*Блок Popular Lists конец*/
 
   /*Latest Arrivals начало*/
@@ -653,44 +552,6 @@ a:active {
 }
 
 @media (min-width: 600px) and (max-width: 999px) {
-  /*ОБЩИЕ СВОЙСТВА*/
-  .root {
-    width: 80%;
-    margin-left: 10%;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 1.8vw;
-  }
-  .heading {
-    text-align: left;
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-  }
-  .heading-h1_size {
-    font-size: 7vw;
-    padding: 0%;
-  }
-  .heading-h3_size {
-    padding-left: 2.5vw;
-    padding-bottom: 1.5vw;
-    font-size: 3vw;
-  }
-  .heading-h4_size {
-    font-size: 2.5vw;
-    margin-bottom: 0%;
-  }
-  .text-body-s {
-    font-size: 2vw;
-  }
-  .text-body-l {
-    font-size: 3vw;
-  }
-  .img-book {
-    width: 22vw;
-    height: 28vw;
-  }
-  /*ОБЩИЕ СВОЙСТВА*/
-
   /*Navbar начало*/
   .rowCustom {
     box-shadow: 0px 0px 10px rgb(164, 164, 159);
@@ -952,43 +813,6 @@ a:active {
 }
 
 @media screen and (max-width: 599px) {
-  /*ОБЩИЕ СВОЙСТВА*/
-  .root {
-    width: 100%;
-    margin-left: 0%;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 3.5vw;
-  }
-  .heading {
-    text-align: left;
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-  }
-  .heading-h1_size {
-    font-size: 8vw;
-    padding: 0%;
-  }
-  .heading-h3_size {
-    padding-bottom: 1.5vw;
-    font-size: 5.5vw;
-  }
-  .heading-h4_size {
-    font-size: 4vw;
-    margin-bottom: 0%;
-  }
-  .text-body-s {
-    font-size: 3vw;
-  }
-  .text-body-l {
-    font-size: 4.5vw;
-  }
-  .img-book {
-    width: 30vw;
-    height: 37vw;
-  }
-  /*ОБЩИЕ СВОЙСТВА*/
-
   /*Navbar начало*/
   .rowCustom {
     box-shadow: 0px 0px 10px rgb(164, 164, 159);
