@@ -35,7 +35,6 @@ FONT_SIZE:
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 0.2fr 1fr;
-  border: 1px solid black;
   padding-bottom: 5%;
 }
 .lists__name {
@@ -105,9 +104,6 @@ FONT_SIZE:
 /*Блок Popular Lists конец*/
 
 /* Катя Top 10 authors начало */
-.authors {
-  border: 1px solid black;
-}
 .authors__content {
   margin-left: 2.5vw;
   margin-right: 2.5vw;
@@ -117,9 +113,11 @@ FONT_SIZE:
   justify-items: center;
   text-align: center;
 }
-
+.authors__img {
+  width: 3.7vw;
+}
 .authors__name {
-  margin-top: 8px;
+  margin-top: 5%;
 }
 /* Катя Top 10 authors конец */
 
@@ -129,7 +127,6 @@ FONT_SIZE:
   display: grid;
   grid-template-columns: repeat(3, 0.5fr);
   grid-template-rows: 0.2fr 0.5fr 0.2fr;
-  border: 1px solid black;
 }
 .cards__name {
   grid-area: 1 / 1 / 2 / 4;
@@ -169,7 +166,6 @@ FONT_SIZE:
   display: grid;
   grid-template-columns: repeat(4, 0.5fr);
   grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr;
-  border: 1px solid black;
 }
 .menu__name {
   grid-area: 1 / 1 / 2 / 5;
@@ -312,6 +308,12 @@ FONT_SIZE:
   }
   /*Блок Popular Lists конец*/
 
+  /* Катя Top 10 authors начало */
+  .authors__img {
+    width: 6.5vw;
+  }
+  /* Катя Top 10 authors конец */
+
   /*Latest Arrivals начало*/
   .cards__caption2 {
     margin-left: 9%;
@@ -352,7 +354,6 @@ FONT_SIZE:
   .lists {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 1fr 1fr;
-    border: 1px solid black;
     padding-bottom: 2%;
   }
   .lists__name {
@@ -383,10 +384,15 @@ FONT_SIZE:
   }
   /*Блок Popular Lists конец*/
 
+  /* Катя Top 10 authors начало */
+  .authors__img {
+    width: 10vw;
+  }
+  /* Катя Top 10 authors конец */
+
   /*Latest Arrivals начало*/
   .cards {
     grid-template-columns: repeat(3, 1fr);
-    border: 1px solid black;
   }
   .cards__caption1 {
     margin-left: 8%;
