@@ -82,76 +82,97 @@ FONT_SIZE:
   padding-bottom: 2%;
   display: grid;
   grid-template-columns: repeat(3, 0.5fr);
-  grid-template-rows: 0.2fr 0.2fr 0.2fr;
+  grid-template-rows: 0.2fr 0.5fr 0.2fr;
 }
 .cards__name {
   grid-area: 1 / 1 / 2 / 4;
 }
 .cards__img4 {
-  margin-left: 15%;
-  margin-right: 15%;
-  justify-content: center;
   grid-area: 2 / 1 / 3 / 2;
+  justify-self: center;
 }
 .cards__caption1 {
-  margin-left: 15%;
-  margin-right: 15%;
   grid-area: 3 / 1 / 4 / 2;
-}
-.text-price {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  color: #d96f6e;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .cards__img5 {
-  justify-content: center;
   grid-area: 2 / 2 / 3 / 3;
+  justify-self: center;
 }
 .cards__caption2 {
   grid-area: 3 / 2 / 4 / 2;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .cards__img6 {
-  justify-content: center;
   grid-area: 2 / 3 / 3 / 4;
+  justify-self: center;
 }
 .cards__caption3 {
   grid-area: 3 / 3 / 4 / 4;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 /* Similar Publications конец*/
 
+/* Similar Publications конец*/
 @media (min-width: 600px) and (max-width: 999px) {
-  .cards__img4 {
-    margin-left: 9%;
+  /*Оксана соцсети*/
+  .container1 {
+    margin-left: 15%;
+    margin-right: 15%;
   }
-  .cards__caption1 {
-    margin-left: 9%;
+  .container1_button {
+    width: 22vw;
+    height: 5vw;
   }
+  .container2_icon {
+    width: 5vw;
+  }
+  /*Оксана соцсети*/
 
-  .text-body-s {
-    font-size: 1.5vw;
-  }
-}
-@media screen and (max-width: 599px) {
-  .cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .cards__img4 {
-    margin-left: 7%;
-    margin-right: 7%;
-  }
+  /* Similar Publications начало*/
   .cards__caption1 {
     margin-left: 7%;
     margin-right: 7%;
   }
-  .text-body-s {
-    font-size: 2vw;
+  .cards__caption2 {
+    margin-left: 7%;
+    margin-right: 5%;
   }
 }
-@media screen and (min-width: 1000px) {
-  .cards__img5 {
-    margin-left: 3%;
+/* Similar Publications конец*/
+@media screen and (max-width: 599px) {
+  /*Оксана соцсети*/
+  .container1 {
+    margin-left: 10%;
+    margin-right: 10%;
   }
-  .text-body-s {
-    font-size: 1vw;
+  .container1_button {
+    width: 33vw;
+    height: 8vw;
+    border-radius: 4vw;
+  }
+  .container2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .container2_icon {
+    width: 8vw;
+  }
+  /*Оксана соцсети*/
+
+  /* Similar Publications конец*/
+  .cards__caption1 {
+    margin-left: 5%;
+    margin-right: 7%;
+  }
+  .cards__caption2 {
+    margin-left: 5%;
+  }
+  .cards__caption3 {
+    margin-left: 5%;
   }
 }
+/* Similar Publications конец*/
