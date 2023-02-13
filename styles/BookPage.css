@@ -118,3 +118,40 @@ FONT_SIZE:
   grid-area: 3 / 3 / 4 / 4;
 }
 /* Similar Publications конец*/
+
+@media (min-width: 600px) and (max-width: 999px) {
+  .cards__img4 {
+    margin-left: 9%;
+  }
+  .cards__caption1 {
+    margin-left: 9%;
+  }
+
+  .text-body-s {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 599px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .cards__img4 {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .cards__caption1 {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .text-body-s {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .cards__img5 {
+    margin-left: 3%;
+  }
+  .text-body-s {
+    font-size: 1vw;
+  }
+}
