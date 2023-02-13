@@ -59,3 +59,44 @@ FONT_SIZE:
 }
 
 /*Оксана соцсети*/
+/* Similar Publications начало*/
+.cards {
+  padding-bottom: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-rows: 0.2fr 0.2fr 0.2fr;
+}
+.cards__name {
+  grid-area: 1 / 1 / 2 / 4;
+}
+.cards__img4 {
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: center;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.cards__caption1 {
+  margin-left: 15%;
+  margin-right: 15%;
+  grid-area: 3 / 1 / 4 / 2;
+}
+.text-price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #d96f6e;
+}
+.cards__img5 {
+  justify-content: center;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.cards__caption2 {
+  grid-area: 3 / 2 / 4 / 2;
+}
+.cards__img6 {
+  justify-content: center;
+  grid-area: 2 / 3 / 3 / 4;
+}
+.cards__caption3 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+/* Similar Publications конец*/
