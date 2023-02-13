@@ -9,3 +9,53 @@ FONT_SIZE:
 /*Делаем свой блок сразу адаптивным*/
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
+
+/*Оксана соцсети*/
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.2fr 0.5fr;
+}
+.container1__cell1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.container1__cell2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.container1__cell3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.container1__cell4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  grid-template-rows: 0.2fr 0.5fr;
+}
+.container2__cell1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.container2__cell2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.container2__cell3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.container2__cell4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.container2__cell5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.container2__cell6 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.container2__cell7 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.container2__cell8 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+/*Оксана соцсети*/
