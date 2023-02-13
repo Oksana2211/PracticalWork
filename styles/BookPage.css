@@ -12,53 +12,71 @@ FONT_SIZE:
 
 /*Оксана соцсети*/
 .container1 {
+  padding-top: 5%;
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 0.2fr 0.5fr;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.container1__name {
+  grid-area: 1 / 1 / 2 / 3;
+  padding-bottom: 2%;
 }
 .container1__cell1 {
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 2 / 1 / 3 / 2;
 }
 .container1__cell2 {
-  grid-area: 1 / 2 / 2 / 3;
-}
-.container1__cell3 {
-  grid-area: 2 / 1 / 3 / 2;
-}
-.container1__cell4 {
   grid-area: 2 / 2 / 3 / 3;
+}
+.container1_button {
+  color: #ffffff;
+  width: 12vw;
+  height: 2.5vw;
+  border: 0;
+  border-radius: 3vw;
+}
+.container1_button1 {
+  background: linear-gradient(90deg, #f2d05c 0%, #f3a492 100%);
+}
+.container1_button2 {
+  background: linear-gradient(90deg, #53889d 0%, #bbd1d9 100%);
 }
 .container2 {
+  padding-top: 5%;
+  text-align: center;
   display: grid;
-  grid-template-columns: repeat(4, 0.5fr);
+  grid-template-columns: repeat(5, 0.5fr);
   grid-template-rows: 0.2fr 0.5fr;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 5%;
+}
+.container2__name {
+  grid-area: 1 / 1 / 2 / 6;
+  padding-bottom: 2%;
 }
 .container2__cell1 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.container2__cell2 {
-  grid-area: 1 / 2 / 2 / 3;
-}
-.container2__cell3 {
-  grid-area: 1 / 3 / 2 / 4;
-}
-.container2__cell4 {
-  grid-area: 1 / 4 / 2 / 5;
-}
-.container2__cell5 {
   grid-area: 2 / 1 / 3 / 2;
 }
-.container2__cell6 {
+.container2__cell2 {
   grid-area: 2 / 2 / 3 / 3;
 }
-.container2__cell7 {
+.container2__cell3 {
   grid-area: 2 / 3 / 3 / 4;
 }
-.container2__cell8 {
+.container2__cell4 {
   grid-area: 2 / 4 / 3 / 5;
 }
-
+.container2__cell5 {
+  grid-area: 2 / 5 / 3 / 6;
+}
+.container2_icon {
+  width: 2.8vw;
+}
 /*Оксана соцсети*/
+
 /* Similar Publications начало*/
 .cards {
   padding-bottom: 2%;
