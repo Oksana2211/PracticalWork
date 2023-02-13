@@ -35,7 +35,6 @@ FONT_SIZE:
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 0.2fr 1fr;
-  border: 1px solid black;
   padding-bottom: 5%;
 }
 .lists__name {
@@ -102,14 +101,9 @@ FONT_SIZE:
   width: 20vw;
   height: 11vw;
 }
-
 /*Блок Popular Lists конец*/
 
 /* Катя Top 10 authors начало */
-.authors {
-  border: 1px solid black;
-}
-
 .authors__content {
   margin-left: 2.5vw;
   margin-right: 2.5vw;
@@ -119,9 +113,11 @@ FONT_SIZE:
   justify-items: center;
   text-align: center;
 }
-
+.authors__img {
+  width: 3.7vw;
+}
 .authors__name {
-  margin-top: 8px;
+  margin-top: 5%;
 }
 /* Катя Top 10 authors конец */
 
@@ -131,7 +127,6 @@ FONT_SIZE:
   display: grid;
   grid-template-columns: repeat(3, 0.5fr);
   grid-template-rows: 0.2fr 0.5fr 0.2fr;
-  border: 1px solid black;
 }
 .cards__name {
   grid-area: 1 / 1 / 2 / 4;
@@ -163,7 +158,6 @@ FONT_SIZE:
   margin-right: 15%;
   grid-area: 3 / 3 / 4 / 4;
 }
-
 /*Latest Arrivals конец*/
 
 /*Popular Genres начало*/
@@ -172,7 +166,6 @@ FONT_SIZE:
   display: grid;
   grid-template-columns: repeat(4, 0.5fr);
   grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr;
-  border: 1px solid black;
 }
 .menu__name {
   grid-area: 1 / 1 / 2 / 5;
@@ -290,355 +283,24 @@ FONT_SIZE:
 }
 /*Footer конец*/
 
-@media screen and (min-width: 1000px) {
-  /*Navbar начало*/
-  .rowCustom {
-    box-shadow: 0px 0px 10px rgb(164, 164, 159);
-    width: 100%;
-  }
-  /*Navbar конец*/
-
-  /*Блок Welcome back, Jessica! начало*/
-  .padding-text {
-    margin-right: 15%;
-    padding-left: 5%;
-    margin-top: 5%;
-  }
-  .card-text {
-    padding-top: 3%;
-    padding-bottom: 12%;
-    line-height: 170%;
-  }
-  /*Блок Welcome back, Jessica! конец*/
-
-  /*Блок Popular Lists начало*/
-  .lists {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.2fr 1fr;
-    border: 1px solid black;
-    padding-bottom: 5%;
-  }
-  .lists__name {
-    grid-area: 1 / 1 / 2 / 3;
-  }
-  .card-lists_icon-size {
-    width: 3vw;
-  }
-  .card-lists_icon-position {
-    position: relative;
-  }
-  .card-lists1 {
-    grid-area: 2 / 1 / 3 / 2;
-    background: linear-gradient(90deg, #f3a492 0%, #d96f6e 100%), #c4c4c4;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
-    border-radius: 8px;
-    padding-left: 5%;
-    margin-left: 10%;
-  }
-  .card-lists1_text {
-    color: #ffffff;
-  }
-  .card-lists1_icon {
-    padding-top: 20%;
-  }
-  .card-lists1_effect {
-    width: 22vw;
-    bottom: 100%;
-    right: 16%;
-  }
-  .card-lists2 {
-    grid-area: 2 / 2 / 3 / 3;
-    background: radial-gradient(
-        50% 50% at 50% 50%,
-        #dee9ed 0%,
-        rgba(255, 255, 255, 0) 100%
-      ),
-      #cedee4;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
-    border-radius: 8px;
-    margin-left: 10%;
-  }
-  .card-lists2_text {
-    color: #d96f6e;
-    margin-left: 35%;
-    margin-top: 8%;
-  }
-  .card-lists2_icon1 {
-    left: 12%;
-    top: 38%;
-  }
-  .card-lists2_icon2 {
-    left: 70%;
-    bottom: 20%;
-  }
-  .card-lists2_icon3 {
-    left: 25%;
-    top: 15%;
-  }
-  .card-lists2_icon4 {
-    left: 25%;
-  }
-  .card-lists_size {
-    width: 20vw;
-    height: 11vw;
-  }
-  /*Блок Popular Lists конец*/
-
-  /*Latest Arrivals начало*/
-  .cards {
-    padding-bottom: 2%;
-    display: grid;
-    grid-template-columns: repeat(3, 0.5fr);
-    grid-template-rows: 0.2fr 0.5fr 0.2fr;
-    border: 1px solid black;
-  }
-  .cards__name {
-    grid-area: 1 / 1 / 2 / 4;
-  }
-  .cards__img1 {
-    justify-self: center;
-    grid-area: 2 / 1 / 3 / 2;
-  }
-  .cards__caption1 {
-    margin-left: 15%;
-    margin-right: 15%;
-    grid-area: 3 / 1 / 4 / 2;
-  }
-  .cards__img2 {
-    justify-self: center;
-    grid-area: 2 / 2 / 3 / 3;
-  }
-  .cards__caption2 {
-    margin-left: 11%;
-    margin-right: 14%;
-    grid-area: 3 / 2 / 4 / 3;
-  }
-  .cards__img3 {
-    justify-self: center;
-    grid-area: 2 / 3 / 3 / 4;
-  }
-  .cards__caption3 {
-    margin-left: 15%;
-    margin-right: 15%;
-    grid-area: 3 / 3 / 4 / 4;
-  }
-
-  /*Latest Arrivals конец*/
-
-  /*Popular Genres начало*/
-  .menu {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-    grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr;
-    border: 1px solid black;
-  }
-  .menu__name {
-    grid-area: 1 / 1 / 2 / 5;
-  }
-  .menu__icon-books {
-    grid-area: 2 / 1 / 3 / 2;
-  }
-  .menu_icon {
-    width: 2.2vw;
-    padding-top: 25%;
-  }
-  .icon_background {
-    width: 6vw;
-    height: 5vw;
-    margin-left: 25%;
-    background: #ffffff;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
-    border-radius: 8px;
-  }
-  .icon-books__caption {
-    grid-area: 3 / 1 / 4 / 2;
-  }
-  .menu__icon-detective {
-    grid-area: 2 / 2 / 3 / 3;
-  }
-  .icon-detective__caption {
-    grid-area: 3 / 2 / 4 / 3;
-  }
-  .menu__icon-knife {
-    grid-area: 2 / 3 / 3 / 4;
-  }
-  .icon-knife__caption {
-    grid-area: 3 / 3 / 4 / 4;
-  }
-  .menu__icon-heart {
-    grid-area: 2 / 4 / 3 / 5;
-  }
-  .icon-heart__caption {
-    grid-area: 3 / 4 / 4 / 5;
-  }
-  .menu__icon-geography {
-    grid-area: 4 / 1 / 5 / 2;
-  }
-  .icon-geography__caption {
-    grid-area: 5 / 1 / 6 / 2;
-  }
-  .menu__icon-tennis {
-    grid-area: 4 / 2 / 5 / 3;
-  }
-  .icon-tennis__caption {
-    grid-area: 5 / 2 / 6 / 3;
-  }
-  .menu__icon-physics {
-    grid-area: 4 / 3 / 5 / 4;
-  }
-  .icon-physics__caption {
-    grid-area: 5 / 3 / 6 / 4;
-  }
-  .menu__icon-witch {
-    grid-area: 4 / 4 / 5 / 5;
-  }
-  .icon-witch__caption {
-    grid-area: 5 / 4 / 6 / 5;
-  }
-  .menu__icon-couple {
-    grid-area: 6 / 1 / 7 / 2;
-  }
-  .icon-couple__caption {
-    grid-area: 7 / 1 / 8 / 2;
-  }
-  .menu__icon-children {
-    grid-area: 6 / 2 / 7 / 3;
-  }
-  .icon-children__caption {
-    grid-area: 7 / 2 / 8 / 3;
-  }
-  .menu__icon-book {
-    grid-area: 6 / 3 / 7 / 4;
-  }
-  .icon-book__caption {
-    grid-area: 7 / 3 / 8 / 4;
-  }
-  .menu__icon-leaf {
-    grid-area: 6 / 4 / 7 / 5;
-  }
-  .icon-leaf__caption {
-    grid-area: 7 / 4 / 8 / 5;
-  }
-  /*Popular Genres конец*/
-
-  /*Footer начало*/
-  .footer {
-    margin-top: 5%;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-    grid-template-rows: 0.5fr;
-  }
-  .footer__icon {
-    width: 2.5vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-  .cell1 {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-  .cell2 {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-  .cell3 {
-    grid-area: 1 / 3 / 2 / 4;
-  }
-  .cell4 {
-    grid-area: 1 / 4 / 2 / 5;
-  }
-  /*Footer конец*/
-}
-
 @media (min-width: 600px) and (max-width: 999px) {
-  /*Navbar начало*/
-  .rowCustom {
-    box-shadow: 0px 0px 10px rgb(164, 164, 159);
-    width: 100%;
-  }
-  /*Navbar конец*/
-
   /*Блок Welcome back, Jessica! начало*/
   .padding-text {
     margin-right: 18%;
-    padding-left: 5%;
-    margin-top: 5%;
   }
   .card-text {
-    padding-top: 3%;
-    padding-bottom: 12%;
     line-height: 150%;
   }
   /*Блок Welcome back, Jessica! конец*/
 
   /*Блок Popular Lists начало*/
-  .lists {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.2fr 1fr;
-    border: 1px solid black;
-    padding-bottom: 5%;
-  }
-  .lists__name {
-    grid-area: 1 / 1 / 2 / 3;
-  }
   .card-lists_icon-size {
     width: 5vw;
-  }
-  .card-lists_icon-position {
-    position: relative;
-  }
-  .card-lists1 {
-    grid-area: 2 / 1 / 3 / 2;
-    background: linear-gradient(90deg, #f3a492 0%, #d96f6e 100%), #c4c4c4;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
-    border-radius: 8px;
-    padding-left: 5%;
-    margin-left: 10%;
-  }
-  .card-lists1_text {
-    color: #ffffff;
-  }
-  .card-lists1_icon {
-    padding-top: 20%;
   }
   .card-lists1_effect {
     width: 34.5vw;
     bottom: 108%;
     right: 14%;
-  }
-  .card-lists2 {
-    grid-area: 2 / 2 / 3 / 3;
-    background: radial-gradient(
-        50% 50% at 50% 50%,
-        #dee9ed 0%,
-        rgba(255, 255, 255, 0) 100%
-      ),
-      #cedee4;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
-    border-radius: 8px;
-    margin-left: 10%;
-  }
-  .card-lists2_text {
-    color: #d96f6e;
-    margin-left: 35%;
-    margin-top: 8%;
-  }
-  .card-lists2_icon1 {
-    left: 12%;
-    top: 38%;
-  }
-  .card-lists2_icon2 {
-    left: 70%;
-    bottom: 20%;
-  }
-  .card-lists2_icon3 {
-    left: 25%;
-    top: 15%;
-  }
-  .card-lists2_icon4 {
-    left: 25%;
   }
   .card-lists_size {
     width: 32vw;
@@ -646,199 +308,52 @@ FONT_SIZE:
   }
   /*Блок Popular Lists конец*/
 
+  /* Катя Top 10 authors начало */
+  .authors__img {
+    width: 6.5vw;
+  }
+  /* Катя Top 10 authors конец */
+
   /*Latest Arrivals начало*/
-  .cards {
-    padding-bottom: 2%;
-    display: grid;
-    grid-template-columns: repeat(3, 0.5fr);
-    grid-template-rows: 0.2fr 0.5fr 0.2fr;
-    border: 1px solid black;
-  }
-  .cards__name {
-    grid-area: 1 / 1 / 2 / 4;
-  }
-  .cards__img1 {
-    justify-self: center;
-    grid-area: 2 / 1 / 3 / 2;
-  }
-  .cards__caption1 {
-    margin-left: 15%;
-    margin-right: 15%;
-    grid-area: 3 / 1 / 4 / 2;
-  }
-  .cards__img2 {
-    justify-self: center;
-    grid-area: 2 / 2 / 3 / 3;
-  }
   .cards__caption2 {
     margin-left: 9%;
     margin-right: 10%;
     grid-area: 3 / 2 / 4 / 3;
   }
-  .cards__img3 {
-    justify-self: center;
-    grid-area: 2 / 3 / 3 / 4;
-  }
-  .cards__caption3 {
-    margin-left: 15%;
-    margin-right: 15%;
-    grid-area: 3 / 3 / 4 / 4;
-  }
-
   /*Latest Arrivals конец*/
 
   /*Popular Genres начало*/
-  .menu {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-    grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr;
-    border: 1px solid black;
-  }
-  .menu__name {
-    grid-area: 1 / 1 / 2 / 5;
-  }
-  .menu__icon-books {
-    grid-area: 2 / 1 / 3 / 2;
-  }
   .menu_icon {
     width: 4vw;
-    padding-top: 25%;
   }
   .icon_background {
     width: 9vw;
     height: 8vw;
     margin-left: 27%;
-    background: #ffffff;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
-    border-radius: 8px;
-  }
-  .icon-books__caption {
-    grid-area: 3 / 1 / 4 / 2;
-  }
-  .menu__icon-detective {
-    grid-area: 2 / 2 / 3 / 3;
-  }
-  .icon-detective__caption {
-    grid-area: 3 / 2 / 4 / 3;
-  }
-  .menu__icon-knife {
-    grid-area: 2 / 3 / 3 / 4;
-  }
-  .icon-knife__caption {
-    grid-area: 3 / 3 / 4 / 4;
-  }
-  .menu__icon-heart {
-    grid-area: 2 / 4 / 3 / 5;
-  }
-  .icon-heart__caption {
-    grid-area: 3 / 4 / 4 / 5;
-  }
-  .menu__icon-geography {
-    grid-area: 4 / 1 / 5 / 2;
-  }
-  .icon-geography__caption {
-    grid-area: 5 / 1 / 6 / 2;
-  }
-  .menu__icon-tennis {
-    grid-area: 4 / 2 / 5 / 3;
-  }
-  .icon-tennis__caption {
-    grid-area: 5 / 2 / 6 / 3;
-  }
-  .menu__icon-physics {
-    grid-area: 4 / 3 / 5 / 4;
-  }
-  .icon-physics__caption {
-    grid-area: 5 / 3 / 6 / 4;
-  }
-  .menu__icon-witch {
-    grid-area: 4 / 4 / 5 / 5;
-  }
-  .icon-witch__caption {
-    grid-area: 5 / 4 / 6 / 5;
-  }
-  .menu__icon-couple {
-    grid-area: 6 / 1 / 7 / 2;
-  }
-  .icon-couple__caption {
-    grid-area: 7 / 1 / 8 / 2;
-  }
-  .menu__icon-children {
-    grid-area: 6 / 2 / 7 / 3;
-  }
-  .icon-children__caption {
-    grid-area: 7 / 2 / 8 / 3;
-  }
-  .menu__icon-book {
-    grid-area: 6 / 3 / 7 / 4;
-  }
-  .icon-book__caption {
-    grid-area: 7 / 3 / 8 / 4;
-  }
-  .menu__icon-leaf {
-    grid-area: 6 / 4 / 7 / 5;
-  }
-  .icon-leaf__caption {
-    grid-area: 7 / 4 / 8 / 5;
   }
   /*Popular Genres конец*/
 
   /*Footer начало*/
-  .footer {
-    margin-top: 5%;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-    grid-template-rows: 0.5fr;
-  }
   .footer__icon {
     width: 5.5vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-  .cell1 {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-  .cell2 {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-  .cell3 {
-    grid-area: 1 / 3 / 2 / 4;
-  }
-  .cell4 {
-    grid-area: 1 / 4 / 2 / 5;
   }
   /*Footer конец*/
 }
 
 @media screen and (max-width: 599px) {
-  /*Navbar начало*/
-  .rowCustom {
-    box-shadow: 0px 0px 10px rgb(164, 164, 159);
-    width: 100%;
-  }
-  /*Navbar конец*/
-
   /*Блок Welcome back, Jessica! начало*/
   .padding-text {
     margin-right: 18%;
-    padding-left: 5%;
-    margin-top: 5%;
   }
   .card-text {
-    padding-top: 3%;
-    padding-bottom: 12%;
     line-height: 130%;
   }
   /*Блок Welcome back, Jessica! конец*/
 
   /*Блок Popular Lists начало*/
   .lists {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 1fr 1fr;
-    border: 1px solid black;
     padding-bottom: 2%;
   }
   .lists__name {
@@ -847,23 +362,10 @@ FONT_SIZE:
   .card-lists_icon-size {
     width: 9vw;
   }
-  .card-lists_icon-position {
-    position: relative;
-  }
   .card-lists1 {
     grid-area: 2 / 1 / 3 / 2;
-    background: linear-gradient(90deg, #f3a492 0%, #d96f6e 100%), #c4c4c4;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
-    border-radius: 8px;
-    padding-left: 5%;
     margin-left: 15%;
     margin-bottom: 5%;
-  }
-  .card-lists1_text {
-    color: #ffffff;
-  }
-  .card-lists1_icon {
-    padding-top: 20%;
   }
   .card-lists1_effect {
     width: 70vw;
@@ -871,35 +373,10 @@ FONT_SIZE:
   }
   .card-lists2 {
     grid-area: 3 / 1 / 4 / 2;
-    background: radial-gradient(
-        50% 50% at 50% 50%,
-        #dee9ed 0%,
-        rgba(255, 255, 255, 0) 100%
-      ),
-      #cedee4;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.2);
-    border-radius: 8px;
     margin-left: 15%;
   }
-  .card-lists2_text {
-    color: #d96f6e;
-    margin-left: 35%;
-    margin-top: 8%;
-  }
-  .card-lists2_icon1 {
-    left: 12%;
-    top: 38%;
-  }
   .card-lists2_icon2 {
-    left: 70%;
     bottom: 16%;
-  }
-  .card-lists2_icon3 {
-    left: 25%;
-    top: 15%;
-  }
-  .card-lists2_icon4 {
-    left: 25%;
   }
   .card-lists_size {
     width: 65vw;
@@ -907,168 +384,45 @@ FONT_SIZE:
   }
   /*Блок Popular Lists конец*/
 
+  /* Катя Top 10 authors начало */
+  .authors__img {
+    width: 10vw;
+  }
+  /* Катя Top 10 authors конец */
+
   /*Latest Arrivals начало*/
   .cards {
-    padding-bottom: 2%;
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.2fr 0.5fr 0.2fr;
-    border: 1px solid black;
-  }
-  .cards__name {
-    grid-area: 1 / 1 / 2 / 4;
-  }
-  .cards__img1 {
-    justify-self: center;
-    grid-area: 2 / 1 / 3 / 2;
   }
   .cards__caption1 {
     margin-left: 8%;
     margin-right: 10%;
-    grid-area: 3 / 1 / 4 / 2;
-  }
-  .cards__img2 {
-    justify-self: center;
-    grid-area: 2 / 2 / 3 / 3;
   }
   .cards__caption2 {
     margin-left: 2%;
     margin-right: 0%;
-    grid-area: 3 / 2 / 4 / 3;
-  }
-  .cards__img3 {
-    justify-self: center;
-    grid-area: 2 / 3 / 3 / 4;
   }
   .cards__caption3 {
     margin-left: 7%;
     margin-right: 5%;
-    grid-area: 3 / 3 / 4 / 4;
   }
 
   /*Latest Arrivals конец*/
 
   /*Popular Genres начало*/
-  .menu {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-    grid-template-rows: 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr 0.5fr 0.2fr;
-    border: 1px solid black;
-  }
-  .menu__name {
-    grid-area: 1 / 1 / 2 / 5;
-  }
-  .menu__icon-books {
-    grid-area: 2 / 1 / 3 / 2;
-  }
   .menu_icon {
     width: 6vw;
-    padding-top: 25%;
   }
   .icon_background {
     width: 15vw;
     height: 14vw;
     margin-left: 20%;
-    background: #ffffff;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
-    border-radius: 8px;
-  }
-  .icon-books__caption {
-    grid-area: 3 / 1 / 4 / 2;
-  }
-  .menu__icon-detective {
-    grid-area: 2 / 2 / 3 / 3;
-  }
-  .icon-detective__caption {
-    grid-area: 3 / 2 / 4 / 3;
-  }
-  .menu__icon-knife {
-    grid-area: 2 / 3 / 3 / 4;
-  }
-  .icon-knife__caption {
-    grid-area: 3 / 3 / 4 / 4;
-  }
-  .menu__icon-heart {
-    grid-area: 2 / 4 / 3 / 5;
-  }
-  .icon-heart__caption {
-    grid-area: 3 / 4 / 4 / 5;
-  }
-  .menu__icon-geography {
-    grid-area: 4 / 1 / 5 / 2;
-  }
-  .icon-geography__caption {
-    grid-area: 5 / 1 / 6 / 2;
-  }
-  .menu__icon-tennis {
-    grid-area: 4 / 2 / 5 / 3;
-  }
-  .icon-tennis__caption {
-    grid-area: 5 / 2 / 6 / 3;
-  }
-  .menu__icon-physics {
-    grid-area: 4 / 3 / 5 / 4;
-  }
-  .icon-physics__caption {
-    grid-area: 5 / 3 / 6 / 4;
-  }
-  .menu__icon-witch {
-    grid-area: 4 / 4 / 5 / 5;
-  }
-  .icon-witch__caption {
-    grid-area: 5 / 4 / 6 / 5;
-  }
-  .menu__icon-couple {
-    grid-area: 6 / 1 / 7 / 2;
-  }
-  .icon-couple__caption {
-    grid-area: 7 / 1 / 8 / 2;
-  }
-  .menu__icon-children {
-    grid-area: 6 / 2 / 7 / 3;
-  }
-  .icon-children__caption {
-    grid-area: 7 / 2 / 8 / 3;
-  }
-  .menu__icon-book {
-    grid-area: 6 / 3 / 7 / 4;
-  }
-  .icon-book__caption {
-    grid-area: 7 / 3 / 8 / 4;
-  }
-  .menu__icon-leaf {
-    grid-area: 6 / 4 / 7 / 5;
-  }
-  .icon-leaf__caption {
-    grid-area: 7 / 4 / 8 / 5;
   }
   /*Popular Genres конец*/
 
   /*Footer начало*/
-  .footer {
-    margin-top: 5%;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4, 0.5fr);
-    grid-template-rows: 0.5fr;
-  }
   .footer__icon {
     width: 7.5vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-  .cell1 {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-  .cell2 {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-  .cell3 {
-    grid-area: 1 / 3 / 2 / 4;
-  }
-  .cell4 {
-    grid-area: 1 / 4 / 2 / 5;
   }
   /*Footer конец*/
 }
