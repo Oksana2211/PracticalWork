@@ -11,6 +11,38 @@ FONT_SIZE:
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 
 /* Катя кнопки Add to Cart и Wishlist начало */
+
+/*Оксана Book Conversations with Friends*/
+.book {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.5fr 0.2fr 0.5fr;
+  justify-items: center;
+  text-align: center;
+}
+.book__img {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.book__name {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.name_text {
+  color: #828282;
+}
+.name_body-l {
+  margin-bottom: 0%;
+}
+.book__price {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.book__description {
+  grid-area: 4 / 1 / 5 / 2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*Оксана Book Conversations with Friends*/
+
 .button {
   text-align: center;
 }
@@ -91,8 +123,8 @@ button:hover {
   display: grid;
   grid-template-columns: repeat(5, 0.5fr);
   grid-template-rows: 0.2fr 0.5fr;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
   padding-bottom: 5%;
 }
 .container2__name {
