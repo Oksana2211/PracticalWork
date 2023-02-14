@@ -20,6 +20,7 @@ FONT_SIZE:
   justify-items: center;
   text-align: center;
 }
+
 .book__img {
   grid-area: 1 / 1 / 2 / 2;
 }
@@ -39,6 +40,15 @@ FONT_SIZE:
   grid-area: 4 / 1 / 5 / 2;
   margin-left: 10%;
   margin-right: 10%;
+}
+.description_text {
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 /*Оксана Book Conversations with Friends*/

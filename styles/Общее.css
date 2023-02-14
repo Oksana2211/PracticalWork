@@ -80,6 +80,9 @@ a:active {
   .heading-h1_size {
     font-size: 7vw;
   }
+  .heading-h2_size {
+    font-size: 4vw;
+  }
   .heading-h3_size {
     font-size: 3vw;
   }
@@ -112,6 +115,9 @@ a:active {
   }
   .heading-h1_size {
     font-size: 8vw;
+  }
+  .heading-h2_size {
+    font-size: 6vw;
   }
   .heading-h3_size {
     font-size: 5.5vw;
