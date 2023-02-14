@@ -10,6 +10,48 @@ FONT_SIZE:
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 
+/* Катя кнопки Add to Cart и Wishlist начало */
+.button {
+  text-align: center;
+}
+
+.button__size {
+  border-radius: 8px;
+  height: 40px;
+  border: none;
+  width: 80%;
+  cursor: pointer;
+}
+
+.button__cart {
+  background: #d96f6e;
+  margin-bottom: 8px;
+  margin-top: 5%;
+}
+
+.button__wishlist {
+  background: #f3a492;
+  margin-bottom: 35px;
+}
+
+.button__text {
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 122%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button__text-faber {
+  color: #828282;
+}
+
+button:hover {
+  background-color: #391414;
+}
+/* Катя кнопки Add to Cart и Wishlist конец */
+
 /*Оксана соцсети*/
 .container1 {
   padding-top: 5%;
@@ -76,52 +118,6 @@ FONT_SIZE:
   width: 2.8vw;
 }
 /*Оксана соцсети*/
-
-/* Катя кнопки Add to Cart и Wishlist начало */
-.button {
-  display: grid;
-  justify-items: center;
-}
-
-.button__size {
-  border-radius: 8px;
-  height: 40px;
-  border: none;
-  width: 80%;
-  cursor: pointer;
-}
-
-.button__cart {
-  background: #d96f6e;
-  margin-bottom: 8px;
-  margin-top: 5%;
-}
-
-.button__wishlist {
-  background: #f3a492;
-  margin-bottom: 35px;
-}
-
-.button__text {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1em;
-  line-height: 122%;
-  text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.button__text-faber {
-  color: #828282;
-}
-
-button:hover {
-  background-color: #391414;
-}
-/* Катя кнопки Add to Cart и Wishlist конец */
 
 /* Similar Publications начало*/
 .cards {
