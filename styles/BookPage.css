@@ -10,6 +10,50 @@ FONT_SIZE:
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 
+/* Катя кнопки Add to Cart и Wishlist начало */
+.container3 {
+  text-align: center;
+}
+
+.container3__btn_size {
+  border-radius: 8px;
+  height: 10vw;
+  border: none;
+  width: 80%;
+  cursor: pointer;
+}
+
+.container3__btn_cart {
+  background: #d96f6e;
+  margin-bottom: 2vw;
+}
+
+.container3__btn_wishlist {
+  background: #f3a492;
+  margin-bottom: 5%;
+}
+
+.container3__btn_text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.container3__btn_text-faber {
+  color: #828282;
+}
+
+button:hover {
+  background-color: #e65656;
+}
+/* Катя кнопки Add to Cart и Wishlist конец */
+
 /*Оксана соцсети*/
 .container1 {
   padding-top: 5%;
@@ -77,52 +121,6 @@ FONT_SIZE:
 }
 /*Оксана соцсети*/
 
-/* Катя кнопки Add to Cart и Wishlist начало */
-.button {
-  display: grid;
-  justify-items: center;
-}
-
-.button__size {
-  border-radius: 8px;
-  height: 40px;
-  border: none;
-  width: 80%;
-  cursor: pointer;
-}
-
-.button__cart {
-  background: #d96f6e;
-  margin-bottom: 8px;
-  margin-top: 5%;
-}
-
-.button__wishlist {
-  background: #f3a492;
-  margin-bottom: 35px;
-}
-
-.button__text {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1em;
-  line-height: 122%;
-  text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.button__text-faber {
-  color: #828282;
-}
-
-button:hover {
-  background-color: #391414;
-}
-/* Катя кнопки Add to Cart и Wishlist конец */
-
 /* Similar Publications начало*/
 .cards {
   padding-bottom: 2%;
@@ -164,6 +162,14 @@ button:hover {
 
 /* Similar Publications конец*/
 @media (min-width: 600px) and (max-width: 999px) {
+  /* Катя кнопки Add to Cart и Wishlist начало */
+  .container3__btn_size {
+    border-radius: 10px;
+    height: 7vw;
+    width: 63%;
+  }
+  /* Катя кнопки Add to Cart и Wishlist конец */
+
   /*Оксана соцсети*/
   .container1 {
     margin-left: 15%;
@@ -189,6 +195,7 @@ button:hover {
   }
 }
 /* Similar Publications конец*/
+
 @media screen and (max-width: 599px) {
   /*Оксана соцсети*/
   .container1 {
@@ -222,3 +229,17 @@ button:hover {
   }
 }
 /* Similar Publications конец*/
+
+@media screen and (min-width: 1000px) {
+  /* Катя кнопки Add to Cart и Wishlist начало */
+  .container3__btn_size {
+    border-radius: 6px;
+    height: 2.5vw;
+    width: 55%;
+  }
+
+  .container3__btn_cart {
+    margin-bottom: 1vw;
+  }
+  /* Катя кнопки Add to Cart и Wishlist конец */
+}
