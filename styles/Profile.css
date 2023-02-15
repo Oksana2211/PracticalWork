@@ -9,3 +9,84 @@ FONT_SIZE:
 /*Делаем свой блок сразу адаптивным*/
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
+
+/*<!--Олеся Jessica начало--> */
+.profile {
+  padding-bottom: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+}
+.profile__jessica {
+  grid-area: 1 / 2 / 2 / 5;
+}
+.img-profile {
+  width: 16vw;
+  height: 16vw;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.profile__caption {
+  grid-area: 2 / 2 / 3 / 5;
+}
+.text-profile {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-left: 8%;
+}
+.profile__following {
+  grid-area: 3 / 1 / 4 / 2;
+  margin-left: 30%;
+}
+.profile__followers {
+  grid-area: 3 / 3 / 4 / 4;
+}
+/*<!--Олеся Jessica конец--> */
+
+/*< Purchased Books начало-->*/
+.cards {
+  padding-bottom: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-rows: 0.2fr 0.2fr 0.2fr;
+}
+.cards__name {
+  grid-area: 1 / 1 / 2 / 4;
+}
+.cards__img7 {
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: center;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.cards__caption1 {
+  margin-left: 15%;
+  margin-right: 15%;
+  grid-area: 3 / 1 / 4 / 2;
+}
+.cards__caption2 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.cards__caption3 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.cards__img8 {
+  justify-content: center;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.cards__img9 {
+  justify-content: center;
+  grid-area: 2 / 3 / 3 / 4;
+}
+.heading_3 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.cards__view {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #d96f6e;
+  text-align: center;
+  text-decoration: underline;
+}
