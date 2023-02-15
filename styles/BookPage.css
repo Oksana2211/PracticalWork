@@ -18,7 +18,6 @@ FONT_SIZE:
   justify-items: center;
   text-align: center;
 }
-
 .book__img {
   grid-area: 1 / 1 / 2 / 2;
 }
@@ -48,48 +47,40 @@ FONT_SIZE:
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-
 /*Оксана Book Conversations with Friends*/
 
 /* Катя кнопки Add to Cart и Wishlist начало */
 .container3 {
   text-align: center;
 }
-
 .container3__btn_size {
   border-radius: 8px;
-  height: 10vw;
+  height: 4vw;
   border: none;
-  width: 80%;
+  width: 60%;
   cursor: pointer;
 }
-
 .container3__btn_cart {
   background: #d96f6e;
   margin-bottom: 2vw;
+  margin-top: 2vw;
 }
-
 .container3__btn_wishlist {
   background: #f3a492;
   margin-bottom: 5%;
 }
-
 .container3__btn_text {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.5vw;
   line-height: 122%;
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
 }
-
 .container3__btn_text-faber {
   color: #828282;
 }
-
 button:hover {
   background-color: #e65656;
 }
@@ -201,13 +192,15 @@ button:hover {
 }
 /* Similar Publications конец*/
 
-/* Similar Publications конец*/
 @media (min-width: 600px) and (max-width: 999px) {
   /* Катя кнопки Add to Cart и Wishlist начало */
   .container3__btn_size {
     border-radius: 10px;
-    height: 7vw;
+    height: 6vw;
     width: 63%;
+  }
+  .container3__btn_text {
+    font-size: 3vw;
   }
   /* Катя кнопки Add to Cart и Wishlist конец */
 
@@ -234,10 +227,20 @@ button:hover {
     margin-left: 7%;
     margin-right: 5%;
   }
+  /* Similar Publications конец*/
 }
-/* Similar Publications конец*/
 
 @media screen and (max-width: 599px) {
+  /* Катя кнопки Add to Cart и Wishlist начало */
+  .container3__btn_size {
+    border-radius: 9px;
+    height: 9vw;
+  }
+  .container3__btn_text {
+    font-size: 4vw;
+  }
+  /* Катя кнопки Add to Cart и Wishlist конец */
+
   /*Оксана соцсети*/
   .container1 {
     margin-left: 10%;
@@ -268,19 +271,5 @@ button:hover {
   .cards__caption3 {
     margin-left: 5%;
   }
-}
-/* Similar Publications конец*/
-
-@media screen and (min-width: 1000px) {
-  /* Катя кнопки Add to Cart и Wishlist начало */
-  .container3__btn_size {
-    border-radius: 6px;
-    height: 2.5vw;
-    width: 55%;
-  }
-
-  .container3__btn_cart {
-    margin-bottom: 1vw;
-  }
-  /* Катя кнопки Add to Cart и Wishlist конец */
+  /* Similar Publications конец*/
 }
