@@ -17,6 +17,7 @@ FONT_SIZE:
   grid-template-rows: 1fr 0.5fr 0.2fr 0.5fr;
   justify-items: center;
   text-align: center;
+  margin-top: 5%;
 }
 .book__img {
   grid-area: 1 / 1 / 2 / 2;
@@ -115,6 +116,13 @@ button:hover {
 }
 .container1_button1 {
   background: linear-gradient(90deg, #f2d05c 0%, #f3a492 100%);
+}
+.container1_button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(50, 107, 200, 1) 13%,
+    rgba(239, 161, 52, 0.8925945378151261) 85%
+  );
 }
 .container1_button2 {
   background: linear-gradient(90deg, #53889d 0%, #bbd1d9 100%);
@@ -247,8 +255,8 @@ button:hover {
     margin-right: 10%;
   }
   .container1_button {
-    width: 33vw;
-    height: 8vw;
+    width: 35vw;
+    height: 9vw;
     border-radius: 4vw;
   }
   .container2 {

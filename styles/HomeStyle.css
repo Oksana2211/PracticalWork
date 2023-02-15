@@ -10,13 +10,6 @@ FONT_SIZE:
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 
-/*Navbar начало*/
-.rowCustom {
-  box-shadow: 0px 0px 10px rgb(164, 164, 159);
-  width: 100%;
-}
-/*Navbar конец*/
-
 /*Блок Welcome back, Jessica! начало*/
 .padding-text {
   margin-right: 15%;
@@ -257,33 +250,6 @@ FONT_SIZE:
 }
 /*Popular Genres конец*/
 
-/*Footer начало*/
-.footer {
-  margin-top: 5%;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(4, 0.5fr);
-  grid-template-rows: 0.5fr;
-}
-.footer__icon {
-  width: 2.5vw;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-.cell1 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.cell2 {
-  grid-area: 1 / 2 / 2 / 3;
-}
-.cell3 {
-  grid-area: 1 / 3 / 2 / 4;
-}
-.cell4 {
-  grid-area: 1 / 4 / 2 / 5;
-}
-/*Footer конец*/
-
 @media (min-width: 600px) and (max-width: 999px) {
   /*Блок Welcome back, Jessica! начало*/
   .padding-text {
@@ -333,12 +299,6 @@ FONT_SIZE:
     margin-left: 27%;
   }
   /*Popular Genres конец*/
-
-  /*Footer начало*/
-  .footer__icon {
-    width: 5.5vw;
-  }
-  /*Footer конец*/
 }
 
 @media screen and (max-width: 599px) {
@@ -420,10 +380,4 @@ FONT_SIZE:
     margin-left: 20%;
   }
   /*Popular Genres конец*/
-
-  /*Footer начало*/
-  .footer__icon {
-    width: 7.5vw;
-  }
-  /*Footer конец*/
 }
