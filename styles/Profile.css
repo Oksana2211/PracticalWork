@@ -9,3 +9,34 @@ FONT_SIZE:
 /*Делаем свой блок сразу адаптивным*/
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
+.wishlist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+.wishlist__heading {
+  grid-area: 1 / 1 / 2 / 4;
+  display: flex;
+  justify-content: left;
+}
+.wishlist__img1 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.wishlist__img2 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.wishlist__img3 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.wishlist__img4 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.wishlist__img5 {
+  grid-area: 3 / 4 / 4 / 3;
+}
+.wishlist__img6 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.wishlist__link {
+  grid-area: 4 / 1 / 5 / 4;
+}

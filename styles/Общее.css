@@ -42,9 +42,17 @@
   color: #4f4f4f;
   font-weight: bold;
 }
+.heading-h6_color {
+  padding-left: 2%;
+  color: #333333;
+}
 .text-body-s {
   font-size: 1.2vw;
   margin-bottom: 0%;
+}
+.body-s_color {
+  color: #53889d;
+  padding-left: 2%;
 }
 .text-body-bolt {
   font-size: 1vw;
