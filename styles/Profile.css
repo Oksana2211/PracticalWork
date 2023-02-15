@@ -9,6 +9,8 @@ FONT_SIZE:
 /*Делаем свой блок сразу адаптивным*/
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
+
+/*Оксана Wishlist*/
 .wishlist {
   margin-left: 10%;
   margin-right: 10%;
@@ -48,4 +50,28 @@ FONT_SIZE:
 .wishlist__link {
   grid-area: 4 / 1 / 5 / 4;
   text-align: center;
+  padding-top: 5%;
+}
+/*Оксана Wishlist*/
+
+@media (min-width: 600px) and (max-width: 999px) {
+  /*Оксана Wishlist*/
+  .wishlist-img_size {
+    width: 19vw;
+    height: 24vw;
+    margin-left: 3%;
+  }
+  /*Оксана Wishlist*/
+}
+@media screen and (max-width: 599px) {
+  /*Оксана Wishlist*/
+  .wishlist {
+    margin-left: 8%;
+  }
+  .wishlist-img_size {
+    width: 25vw;
+    height: 32vw;
+    margin-left: 0%;
+  }
+  /*Оксана Wishlist*/
 }
