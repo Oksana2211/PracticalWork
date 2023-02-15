@@ -10,9 +10,12 @@ FONT_SIZE:
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 .wishlist {
+  margin-left: 10%;
+  margin-right: 10%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.2fr 1fr 0.2fr;
+  margin-top: 5%;
 }
 .wishlist__heading {
   grid-area: 1 / 1 / 2 / 4;
@@ -25,6 +28,11 @@ FONT_SIZE:
 .wishlist__img2 {
   grid-area: 2 / 2 / 3 / 3;
 }
+.wishlist-img_size {
+  width: 11vw;
+  height: 14vw;
+  margin-left: 9%;
+}
 .wishlist__img3 {
   grid-area: 2 / 3 / 3 / 4;
 }
@@ -32,11 +40,12 @@ FONT_SIZE:
   grid-area: 3 / 1 / 4 / 2;
 }
 .wishlist__img5 {
-  grid-area: 3 / 4 / 4 / 3;
+  grid-area: 3 / 2 / 4 / 3;
 }
 .wishlist__img6 {
   grid-area: 3 / 3 / 4 / 4;
 }
 .wishlist__link {
   grid-area: 4 / 1 / 5 / 4;
+  text-align: center;
 }
