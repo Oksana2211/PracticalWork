@@ -10,83 +10,68 @@ FONT_SIZE:
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 
-/*<!--Олеся Jessica начало--> */
-.profile {
-  padding-bottom: 2%;
+/*Оксана Wishlist*/
+.wishlist {
+  margin-left: 10%;
+  margin-right: 10%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.2fr 1fr 0.2fr;
+  margin-top: 5%;
 }
-.profile__jessica {
-  grid-area: 1 / 2 / 2 / 5;
-}
-.img-profile {
-  width: 16vw;
-  height: 16vw;
-  margin-top: 7%;
-  margin-bottom: 7%;
-}
-.profile__caption {
-  grid-area: 2 / 2 / 3 / 5;
-}
-.text-profile {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  margin-left: 8%;
-}
-.profile__following {
-  grid-area: 3 / 1 / 4 / 2;
-  margin-left: 30%;
-}
-.profile__followers {
-  grid-area: 3 / 3 / 4 / 4;
-}
-/*<!--Олеся Jessica конец--> */
-
-/*< Purchased Books начало-->*/
-.cards {
-  padding-bottom: 2%;
-  display: grid;
-  grid-template-columns: repeat(3, 0.5fr);
-  grid-template-rows: 0.2fr 0.2fr 0.2fr;
-}
-.cards__name {
+.wishlist__heading {
   grid-area: 1 / 1 / 2 / 4;
+  display: flex;
+  justify-content: left;
 }
-.cards__img7 {
-  margin-left: 15%;
-  margin-right: 15%;
-  justify-content: center;
+.wishlist__img1 {
   grid-area: 2 / 1 / 3 / 2;
 }
-.cards__caption1 {
-  margin-left: 15%;
-  margin-right: 15%;
-  grid-area: 3 / 1 / 4 / 2;
-}
-.cards__caption2 {
-  grid-area: 3 / 2 / 4 / 3;
-}
-.cards__caption3 {
-  grid-area: 3 / 3 / 4 / 4;
-}
-.cards__img8 {
-  justify-content: center;
+.wishlist__img2 {
   grid-area: 2 / 2 / 3 / 3;
 }
-.cards__img9 {
-  justify-content: center;
+.wishlist-img_size {
+  width: 11vw;
+  height: 14vw;
+  margin-left: 9%;
+}
+.wishlist__img3 {
   grid-area: 2 / 3 / 3 / 4;
 }
-.heading_3 {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+.wishlist__img4 {
+  grid-area: 3 / 1 / 4 / 2;
 }
-.cards__view {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  color: #d96f6e;
+.wishlist__img5 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.wishlist__img6 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.wishlist__link {
+  grid-area: 4 / 1 / 5 / 4;
   text-align: center;
-  text-decoration: underline;
+  padding-top: 5%;
+}
+/*Оксана Wishlist*/
+
+@media (min-width: 600px) and (max-width: 999px) {
+  /*Оксана Wishlist*/
+  .wishlist-img_size {
+    width: 19vw;
+    height: 24vw;
+    margin-left: 3%;
+  }
+  /*Оксана Wishlist*/
+}
+@media screen and (max-width: 599px) {
+  /*Оксана Wishlist*/
+  .wishlist {
+    margin-left: 8%;
+  }
+  .wishlist-img_size {
+    width: 25vw;
+    height: 32vw;
+    margin-left: 0%;
+  }
+  /*Оксана Wishlist*/
 }
