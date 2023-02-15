@@ -3,6 +3,9 @@
   box-shadow: 0px 0px 10px rgb(164, 164, 159);
   width: 100%;
 }
+.nav_icon {
+  margin-left: 2%;
+}
 /*Navbar конец*/
 /*ОБЩИЕ СВОЙСТВА*/
 .root {
@@ -34,6 +37,7 @@
   margin-bottom: 0%;
 }
 .heading-h6_size {
+  margin-bottom: 0%;
   font-size: 1.4vw;
   color: #4f4f4f;
   font-weight: bold;
