@@ -55,19 +55,19 @@
   line-height: 94%;
   color: #ffffff;
 }
-.genres__btn_blue {
+.genres__btn1 {
   background: linear-gradient(90deg, #53889d 0%, #bbd1d9 100%);
 }
-.genres__btn_red {
+.genres__btn2 {
   background: linear-gradient(90deg, #f3a492 0%, #d96f6e 100%), #c4c4c4;
 }
-.genres__btn_yellow-red {
+.genres__btn3 {
   background: linear-gradient(90deg, #f2d05c 0%, #f3a492 100%);
 }
-.genres__btn_blue-yellow {
+.genres__btn4 {
   background: linear-gradient(90deg, #bbd1d9 0%, #f2d05c 92.86%);
 }
-.genres__btn_red-yellow {
+.genres__btn5 {
   background: linear-gradient(90deg, #d96f6e 0%, #f2d05c 100%);
 }
 /* Катя Favorite Genres конец */
