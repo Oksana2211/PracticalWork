@@ -10,16 +10,51 @@ FONT_SIZE:
 
 /*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
 
+/*<!--Олеся Jessica начало--> */
+.profile {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  justify-items: center;
+  text-align: center;
+}
+.profile__img {
+  grid-area: 1 / 1 / 2 / 3;
+}
+.profile__img_size {
+  width: 16vw;
+  padding-bottom: 5%;
+}
+.profile__name {
+  grid-area: 2 / 1 / 3 / 3;
+}
+.name_text {
+  text-transform: uppercase;
+  margin-bottom: 8%;
+}
+.profile__following {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.follow_subtitle {
+  color: #4f4f4f;
+  margin-bottom: 5%;
+}
+.profile__followers {
+  grid-area: 3 / 2 / 4 / 3;
+}
+/*<!--Олеся Jessica конец--> */
+
 /* Катя Favorite Genres начало */
 .genres {
   margin: 5% 10% 5% 10%;
 }
-
 .genres__btn-all {
   margin-left: 2%;
   margin-top: 2%;
 }
-
 .genres__btn {
   border: none;
   border-radius: 2vw;
@@ -28,8 +63,6 @@ FONT_SIZE:
   padding-left: 2.5vw;
   margin-bottom: 1.5vw;
   margin-right: 1vw;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 1.2vw;
   line-height: 94%;
@@ -38,19 +71,15 @@ FONT_SIZE:
 .genres__btn_blue {
   background: linear-gradient(90deg, #53889d 0%, #bbd1d9 100%);
 }
-
 .genres__btn_red {
   background: linear-gradient(90deg, #f3a492 0%, #d96f6e 100%), #c4c4c4;
 }
-
 .genres__btn_yellow-red {
   background: linear-gradient(90deg, #f2d05c 0%, #f3a492 100%);
 }
-
 .genres__btn_blue-yellow {
   background: linear-gradient(90deg, #bbd1d9 0%, #f2d05c 92.86%);
 }
-
 .genres__btn_red-yellow {
   background: linear-gradient(90deg, #d96f6e 0%, #f2d05c 100%);
 }
@@ -141,6 +170,12 @@ FONT_SIZE:
 /*Оксана Wishlist*/
 
 @media (min-width: 600px) and (max-width: 999px) {
+  /*<!--Олеся Jessica начало--> */
+  .profile__img_size {
+    width: 28vw;
+  }
+  /*<!--Олеся Jessica конец--> */
+
   /* Катя Favorite Genres начало */
   .genres__btn {
     height: 5vw;
@@ -160,6 +195,11 @@ FONT_SIZE:
   /*Оксана Wishlist*/
 }
 @media screen and (max-width: 599px) {
+  /*<!--Олеся Jessica начало--> */
+  .profile__img_size {
+    width: 38vw;
+  }
+  /*<!--Олеся Jessica конец--> */
   /* Катя Favorite Genres начало */
   .genres {
     margin-left: 8%;
