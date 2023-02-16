@@ -116,7 +116,7 @@ FONT_SIZE:
 
 /*Latest Arrivals начало*/
 .cards {
-  padding-bottom: 2%;
+  margin-bottom: 5%;
   display: grid;
   grid-template-columns: repeat(3, 0.5fr);
   grid-template-rows: 0.2fr 0.5fr 0.2fr;
