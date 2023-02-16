@@ -1,15 +1,3 @@
-/*Шрифты: font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;
-
-FONT_SIZE:
-смотрите в ОБЩИЕ свойства*/
-
-/*СЖИМАЕМ КАРТИНКИ СРАЗУ https://tinypng.com/ */
-
-/*Делаем свой блок сразу адаптивным*/
-
-/*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
-
 /*Блок Welcome back, Jessica! начало*/
 .padding-text {
   margin-right: 15%;
@@ -22,7 +10,6 @@ FONT_SIZE:
   line-height: 170%;
 }
 /*Блок Welcome back, Jessica! конец*/
-
 /*Блок Popular Lists начало*/
 .lists {
   display: grid;
@@ -95,7 +82,6 @@ FONT_SIZE:
   height: 11vw;
 }
 /*Блок Popular Lists конец*/
-
 /* Катя Top 10 authors начало */
 .authors__content {
   margin-left: 2.5vw;
@@ -113,7 +99,6 @@ FONT_SIZE:
   margin-top: 5%;
 }
 /* Катя Top 10 authors конец */
-
 /*Latest Arrivals начало*/
 .cards {
   margin-bottom: 5%;
@@ -152,7 +137,6 @@ FONT_SIZE:
   grid-area: 3 / 3 / 4 / 4;
 }
 /*Latest Arrivals конец*/
-
 /*Popular Genres начало*/
 .menu {
   text-align: center;
@@ -249,7 +233,6 @@ FONT_SIZE:
   grid-area: 7 / 4 / 8 / 5;
 }
 /*Popular Genres конец*/
-
 @media (min-width: 600px) and (max-width: 999px) {
   /*Блок Welcome back, Jessica! начало*/
   .padding-text {
@@ -259,7 +242,6 @@ FONT_SIZE:
     line-height: 150%;
   }
   /*Блок Welcome back, Jessica! конец*/
-
   /*Блок Popular Lists начало*/
   .card-lists_icon-size {
     width: 5vw;
@@ -274,13 +256,11 @@ FONT_SIZE:
     height: 18vw;
   }
   /*Блок Popular Lists конец*/
-
   /* Катя Top 10 authors начало */
   .authors__img {
     width: 6.5vw;
   }
   /* Катя Top 10 authors конец */
-
   /*Latest Arrivals начало*/
   .cards__caption2 {
     margin-left: 9%;
@@ -288,7 +268,6 @@ FONT_SIZE:
     grid-area: 3 / 2 / 4 / 3;
   }
   /*Latest Arrivals конец*/
-
   /*Popular Genres начало*/
   .menu_icon {
     width: 4vw;
@@ -300,7 +279,6 @@ FONT_SIZE:
   }
   /*Popular Genres конец*/
 }
-
 @media screen and (max-width: 599px) {
   /*Блок Welcome back, Jessica! начало*/
   .padding-text {
@@ -310,7 +288,6 @@ FONT_SIZE:
     line-height: 130%;
   }
   /*Блок Welcome back, Jessica! конец*/
-
   /*Блок Popular Lists начало*/
   .lists {
     grid-template-columns: 1fr;
@@ -344,13 +321,11 @@ FONT_SIZE:
     height: 35vw;
   }
   /*Блок Popular Lists конец*/
-
   /* Катя Top 10 authors начало */
   .authors__img {
     width: 10vw;
   }
   /* Катя Top 10 authors конец */
-
   /*Latest Arrivals начало*/
   .cards {
     grid-template-columns: repeat(3, 1fr);
@@ -369,7 +344,6 @@ FONT_SIZE:
   }
 
   /*Latest Arrivals конец*/
-
   /*Popular Genres начало*/
   .menu_icon {
     width: 6vw;

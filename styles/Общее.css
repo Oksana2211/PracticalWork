@@ -100,7 +100,6 @@ a:active {
   color: #000000;
 }
 /*ОБЩИЕ СВОЙСТВА*/
-
 /*Footer начало*/
 .footer {
   margin-top: 5%;
@@ -127,7 +126,6 @@ a:active {
   grid-area: 1 / 4 / 2 / 5;
 }
 /*Footer конец*/
-
 @media (min-width: 600px) and (max-width: 999px) {
   /*ОБЩИЕ СВОЙСТВА*/
   .root {

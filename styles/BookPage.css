@@ -1,15 +1,3 @@
-/*Шрифты: font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;
-
-FONT_SIZE:
-смотрите в ОБЩИЕ свойства*/
-
-/*СЖИМАЕМ КАРТИНКИ СРАЗУ https://tinypng.com/ */
-
-/*Делаем свой блок сразу адаптивным*/
-
-/*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
-
 /*Оксана Book Conversations with Friends*/
 .book {
   display: grid;
@@ -46,7 +34,6 @@ FONT_SIZE:
   -webkit-box-orient: vertical;
 }
 /*Оксана Book Conversations with Friends*/
-
 /* Катя кнопки Add to Cart и Wishlist начало */
 .container3 {
   text-align: center;
@@ -79,7 +66,6 @@ button:hover {
   background-color: #e65656;
 }
 /* Катя кнопки Add to Cart и Wishlist конец */
-
 /*Оксана соцсети*/
 .container1 {
   padding-top: 5%;
@@ -153,7 +139,6 @@ button:hover {
   width: 2.8vw;
 }
 /*Оксана соцсети*/
-
 /* Similar Publications начало*/
 .cards {
   padding-bottom: 2%;
@@ -192,7 +177,6 @@ button:hover {
   margin-right: 10%;
 }
 /* Similar Publications конец*/
-
 @media (min-width: 600px) and (max-width: 999px) {
   /* Катя кнопки Add to Cart и Wishlist начало */
   .container3__btn_size {
@@ -204,7 +188,6 @@ button:hover {
     font-size: 3vw;
   }
   /* Катя кнопки Add to Cart и Wishlist конец */
-
   /*Оксана соцсети*/
   .container1 {
     margin-left: 15%;
@@ -218,7 +201,6 @@ button:hover {
     width: 5vw;
   }
   /*Оксана соцсети*/
-
   /* Similar Publications начало*/
   .cards__caption1 {
     margin-left: 7%;
@@ -230,7 +212,6 @@ button:hover {
   }
   /* Similar Publications конец*/
 }
-
 @media screen and (max-width: 599px) {
   /* Катя кнопки Add to Cart и Wishlist начало */
   .container3__btn_size {
@@ -241,7 +222,6 @@ button:hover {
     font-size: 4vw;
   }
   /* Катя кнопки Add to Cart и Wishlist конец */
-
   /*Оксана соцсети*/
   .container1 {
     margin-left: 10%;
@@ -260,7 +240,6 @@ button:hover {
     width: 8vw;
   }
   /*Оксана соцсети*/
-
   /* Similar Publications конец*/
   .cards__caption1 {
     margin-left: 5%;

@@ -1,15 +1,3 @@
-/*Шрифты: font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;
-
-FONT_SIZE:
-смотрите в ОБЩИЕ свойства*/
-
-/*СЖИМАЕМ КАРТИНКИ СРАЗУ https://tinypng.com/ */
-
-/*Делаем свой блок сразу адаптивным*/
-
-/*Девочки, подписываем свои рабочие области, начало/конец, как объясняла Диана на вебинаре*/
-
 /*<!--Олеся Jessica начало--> */
 .profile {
   margin-top: 5%;
@@ -46,7 +34,6 @@ FONT_SIZE:
   grid-area: 3 / 2 / 4 / 3;
 }
 /*<!--Олеся Jessica конец--> */
-
 /* Катя Favorite Genres начало */
 .genres {
   margin: 5% 10% 5% 10%;
@@ -167,14 +154,12 @@ FONT_SIZE:
   padding-top: 5%;
 }
 /*Оксана Wishlist*/
-
 @media (min-width: 600px) and (max-width: 999px) {
   /*<!--Олеся Jessica начало--> */
   .profile__img_size {
     width: 28vw;
   }
   /*<!--Олеся Jessica конец--> */
-
   /* Катя Favorite Genres начало */
   .genres__btn {
     height: 5vw;
@@ -184,7 +169,6 @@ FONT_SIZE:
     font-size: 1.7vw;
   }
   /* Катя Favorite Genres конец */
-
   /*Оксана Wishlist*/
   .wishlist-img_size {
     width: 19vw;
@@ -229,7 +213,6 @@ FONT_SIZE:
   .cards__caption3 {
     margin-left: 1%;
   }
-
   /*< Олеся Purchased Books конец-->*/
   /*Оксана Wishlist*/
   .wishlist {
