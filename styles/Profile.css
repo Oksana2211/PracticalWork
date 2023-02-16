@@ -86,37 +86,36 @@ FONT_SIZE:
 /* Катя Favorite Genres конец */
 /*< Олеся Purchased Books начало-->*/
 .cards {
-  padding-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5%;
   display: grid;
   grid-template-columns: repeat(3, 0.5fr);
-  grid-template-rows: 0.2fr 0.2fr 0.2fr;
+  grid-template-rows: 0.2fr 1fr 0.2fr;
 }
 .cards__name {
+  display: flex;
+  justify-content: left;
   grid-area: 1 / 1 / 2 / 4;
 }
 .cards__img7 {
-  margin-left: 15%;
-  margin-right: 15%;
   grid-area: 2 / 1 / 3 / 2;
 }
 .cards__caption1 {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 5%;
   grid-area: 3 / 1 / 4 / 2;
 }
 .cards__img8 {
-  margin-left: 6%;
   grid-area: 2 / 2 / 3 / 3;
 }
 .cards__caption2 {
-  margin-left: 7%;
   grid-area: 3 / 2 / 4 / 3;
 }
 .cards__img9 {
-  justify-content: center;
   grid-area: 2 / 3 / 3 / 4;
 }
 .cards__caption3 {
+  margin-left: 6%;
   grid-area: 3 / 3 / 4 / 4;
 }
 .purchased__link {
@@ -214,9 +213,24 @@ FONT_SIZE:
   }
   /* Катя Favorite Genres конец */
   /*< Олеся Purchased Books начало-->*/
-  .heading-h4_size {
-    font-size: 3vw;
+  .cards {
+    margin-left: 3%;
+    margin-right: 2%;
   }
+  .cards__name {
+    padding-left: 5%;
+  }
+  .cards__caption1 {
+    margin-left: 6%;
+  }
+  .cards__caption2 {
+    margin-left: 2%;
+  }
+  .cards__caption3 {
+    margin-left: 1%;
+  }
+
+  /*< Олеся Purchased Books конец-->*/
   /*Оксана Wishlist*/
   .wishlist {
     margin-left: 8%;
