@@ -20,12 +20,6 @@
 .lists__name {
   grid-area: 1 / 1 / 2 / 3;
 }
-.card-lists_icon-size {
-  width: 3vw;
-}
-.card-lists_icon-position {
-  position: relative;
-}
 .card-lists1 {
   grid-area: 2 / 1 / 3 / 2;
   background: linear-gradient(90deg, #f3a492 0%, #d96f6e 100%), #c4c4c4;
@@ -33,6 +27,12 @@
   border-radius: 8px;
   padding-left: 5%;
   margin-left: 10%;
+}
+.card-lists_icon-size {
+  width: 3vw;
+}
+.card-lists_icon-position {
+  position: relative;
 }
 .card-lists1_text {
   color: #ffffff;
@@ -83,7 +83,7 @@
 }
 /*Блок Popular Lists конец*/
 /* Катя Top 10 authors начало */
-.authors__content {
+.authors {
   margin-left: 2.5vw;
   margin-right: 2.5vw;
   display: grid;
@@ -92,10 +92,10 @@
   justify-items: center;
   text-align: center;
 }
-.authors__img {
+.authors_img {
   width: 3.7vw;
 }
-.authors__name {
+.authors_name {
   margin-top: 5%;
 }
 /* Катя Top 10 authors конец */
@@ -150,7 +150,7 @@
 .menu__icon-books {
   grid-area: 2 / 1 / 3 / 2;
 }
-.menu_icon {
+.icon-books_size {
   width: 2.5vw;
   padding-top: 25%;
 }
@@ -257,7 +257,7 @@
   }
   /*Блок Popular Lists конец*/
   /* Катя Top 10 authors начало */
-  .authors__img {
+  .authors_img {
     width: 6.5vw;
   }
   /* Катя Top 10 authors конец */
@@ -269,7 +269,7 @@
   }
   /*Latest Arrivals конец*/
   /*Popular Genres начало*/
-  .menu_icon {
+  .icon-books_size {
     width: 4vw;
   }
   .icon_background {
@@ -322,7 +322,7 @@
   }
   /*Блок Popular Lists конец*/
   /* Катя Top 10 authors начало */
-  .authors__img {
+  .authors_img {
     width: 10vw;
   }
   /* Катя Top 10 authors конец */
@@ -345,7 +345,7 @@
 
   /*Latest Arrivals конец*/
   /*Popular Genres начало*/
-  .menu_icon {
+  .icon-books_size {
     width: 6vw;
   }
   .icon_background {
