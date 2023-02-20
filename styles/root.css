@@ -3,9 +3,6 @@
   box-shadow: 0px 0px 10px rgb(164, 164, 159);
   width: 100%;
 }
-.nav_icon {
-  margin-left: 2%;
-}
 /*Navbar конец*/
 /*ОБЩИЕ СВОЙСТВА*/
 .root {
@@ -24,18 +21,13 @@
   font-size: 4vw;
   padding: 0%;
 }
-.heading-2 {
-  font-size: 13vw;
+.heading-h2 {
+  font-size: 3vw;
 }
 .heading-h3 {
   padding-left: 2.2vw;
   padding-bottom: 1.5vw;
   font-size: 2vw;
-}
-.heading_3 {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
 }
 .heading-h4 {
   font-size: 1.5vw;
@@ -59,7 +51,7 @@
   font-size: 1.2vw;
   margin-bottom: 0%;
 }
-.body-s_color {
+.body-s-color {
   color: #53889d;
   padding-left: 2%;
 }
@@ -80,7 +72,7 @@
   height: 16vw;
   object-fit: cover;
 }
-.name_text {
+.name-text {
   color: #828282;
 }
 a:link {
