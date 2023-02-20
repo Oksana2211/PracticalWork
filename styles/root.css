@@ -78,6 +78,7 @@
 .img-book {
   width: 13vw;
   height: 16vw;
+  object-fit: cover;
 }
 .name_text {
   color: #828282;

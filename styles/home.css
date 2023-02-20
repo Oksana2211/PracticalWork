@@ -163,6 +163,13 @@
   box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
   border-radius: 8px;
 }
+.icon_background:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(252, 212, 218) 13%,
+    rgba(255, 193, 178, 0.893) 85%
+  );
+}
 .icon-books__caption {
   grid-area: 3 / 1 / 4 / 2;
 }
