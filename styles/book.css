@@ -40,7 +40,7 @@
 }
 .container__btn-size {
   border-radius: 8px;
-  height: 4vw;
+  min-height: 4vw;
   border: none;
   width: 60%;
   cursor: pointer;
@@ -89,7 +89,7 @@ button:hover {
 .container1-button {
   color: #ffffff;
   width: 12vw;
-  height: 2.5vw;
+  min-height: 2.5vw;
   border: 0;
   border-radius: 3vw;
 }
@@ -181,7 +181,7 @@ button:hover {
   /* Катя кнопки Add to Cart и Wishlist начало */
   .container__btn-size {
     border-radius: 10px;
-    height: 6vw;
+    min-height: 6vw;
     width: 63%;
   }
   .container__btn-text {
@@ -195,7 +195,7 @@ button:hover {
   }
   .container1-button {
     width: 22vw;
-    height: 5vw;
+    min-height: 5vw;
   }
   .container2-icon {
     width: 5vw;
@@ -216,7 +216,7 @@ button:hover {
   /* Катя кнопки Add to Cart и Wishlist начало */
   .container__btn-size {
     border-radius: 9px;
-    height: 9vw;
+    min-height: 9vw;
   }
   .container__btn-text {
     font-size: 4vw;
@@ -229,7 +229,7 @@ button:hover {
   }
   .container1-button {
     width: 35vw;
-    height: 9vw;
+    min-height: 9vw;
     border-radius: 4vw;
   }
   .container2 {

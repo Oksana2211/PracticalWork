@@ -46,7 +46,7 @@
 .genres-btn {
   border: none;
   border-radius: 2vw;
-  height: 2.5vw;
+  min-height: 2.5vw;
   padding-right: 2.5vw;
   padding-left: 2.5vw;
   margin-bottom: 1.5vw;
@@ -208,7 +208,7 @@
   /*<!--Олеся Jessica конец--> */
   /* Катя Favorite Genres начало */
   .genres-btn {
-    height: 5vw;
+    min-height: 5vw;
     margin-right: 2vw;
     padding-right: 4.5vw;
     padding-left: 4.5vw;
@@ -234,7 +234,7 @@
     margin-left: 8%;
   }
   .genres-btn {
-    height: 8vw;
+    min-height: 8vw;
     border-radius: 3vw;
     font-size: 3vw;
     margin-right: 2vw;
