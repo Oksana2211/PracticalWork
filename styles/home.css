@@ -45,9 +45,9 @@
   padding-top: 20%;
 }
 .lists1-effect {
-  width: 22vw;
-  bottom: 100%;
-  right: 16%;
+  width: 21.5vw;
+  bottom: 120%;
+  right: 14%;
 }
 .card-lists2 {
   grid-area: 2 / 2 / 3 / 3;
@@ -169,7 +169,7 @@
   box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
   border-radius: 8px;
 }
-.icon_background:hover {
+.icon-background:hover {
   background: linear-gradient(
     90deg,
     rgb(252, 212, 218) 13%,
@@ -261,7 +261,7 @@
   }
   .lists1-effect {
     width: 34.5vw;
-    bottom: 108%;
+    bottom: 110%;
     right: 14%;
   }
   .lists-size {
@@ -294,7 +294,7 @@
 @media screen and (max-width: 599px) {
   /*Блок Welcome back, Jessica! начало*/
   .padding-text {
-    margin-right: 18%;
+    margin-right: 16%;
   }
   .card-text {
     line-height: 130%;
@@ -319,7 +319,7 @@
   }
   .lists1-effect {
     width: 70vw;
-    bottom: 100%;
+    bottom: 107%;
   }
   .card-lists2 {
     grid-area: 3 / 1 / 4 / 2;
