@@ -93,7 +93,13 @@
   text-align: center;
 }
 .authors__img {
-  width: 3.7vw;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+.authors__img_size {
+  width: 5.5vw;
 }
 .authors__name {
   margin-top: 5%;
@@ -264,8 +270,8 @@
   }
   /*Блок Popular Lists конец*/
   /* Катя Top 10 authors начало */
-  .authors__img {
-    width: 6.5vw;
+  .authors__img_size {
+    width: 10vw;
   }
   /* Катя Top 10 authors конец */
   /*Latest Arrivals начало*/
@@ -328,8 +334,8 @@
   }
   /*Блок Popular Lists конец*/
   /* Катя Top 10 authors начало */
-  .authors__img {
-    width: 10vw;
+  .authors__img_size {
+    width: 13.5vw;
   }
   /* Катя Top 10 authors конец */
   /*Latest Arrivals начало*/
