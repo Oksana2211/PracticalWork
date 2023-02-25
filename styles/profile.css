@@ -11,10 +11,15 @@
 }
 .profile__img {
   grid-area: 1 / 1 / 2 / 3;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .profile__img-size {
   width: 16vw;
-  padding-bottom: 5%;
   object-fit: cover;
 }
 .profile__name {
