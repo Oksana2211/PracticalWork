@@ -25,6 +25,11 @@
 .profile__name {
   grid-area: 2 / 1 / 3 / 3;
 }
+.profile__name-heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  text-align: center;
+}
 .profile-text {
   text-transform: uppercase;
   margin-bottom: 8%;
